@@ -1,0 +1,895 @@
+[2016/05/29 18:38:46.966] !! [plugin] admin: Registering executor with pattern `#<Cinch::Pattern:0x00000002fb9a58 @prefix="?", @pattern=/admin\s+(.+)/, @suffix=nil>`, reacting on `message`
+[2016/05/29 18:38:46.966] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002fb9a58 @prefix="?", @pattern=/admin\s+(.+)/, @suffix=nil>`, reacting on `message`
+[2016/05/29 18:38:46.966] !! [plugin] httpserver: Registering listener for type `connect`
+[2016/05/29 18:38:46.966] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002fb2e60 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `connect`
+[2016/05/29 18:38:46.966] !! [plugin] httpserver: Registering listener for type `disconnect`
+[2016/05/29 18:38:46.966] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002fb1ec0 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `disconnect`
+[2016/05/29 18:38:46.967] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002fb01b0 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `connect`
+[2016/05/29 18:38:46.967] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002fe2fc0 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `disconnect`
+[2016/05/29 18:38:46.967] II Connecting to irc.esper.net:6667
+[2016/05/29 18:38:47.162] << CAP LS 
+[2016/05/29 18:38:47.163] << NICK SkyBot 
+[2016/05/29 18:38:47.163] << USER 0 * :SkyBot
+[2016/05/29 18:38:47.247] >> :ranger.esper.net NOTICE * :*** Looking up your hostname...
+[2016/05/29 18:38:47.328] >> :ranger.esper.net NOTICE * :*** Checking Ident
+[2016/05/29 18:38:47.409] >> :ranger.esper.net NOTICE * :*** Found your hostname
+[2016/05/29 18:38:52.242] >> :ranger.esper.net NOTICE * :*** No Ident response
+[2016/05/29 18:38:52.321] >> :ranger.esper.net CAP * LS :account-notify away-notify extended-join multi-prefix sasl tls
+[2016/05/29 18:38:52.322] << CAP REQ :away-notify multi-prefix sasl
+[2016/05/29 18:38:52.322] >> :ranger.esper.net 461 SkyBot USER :Not enough parameters
+[2016/05/29 18:38:52.401] >> :ranger.esper.net CAP SkyBot ACK :away-notify multi-prefix sasl 
+[2016/05/29 18:38:52.402] << CAP END 
+[2016/05/29 18:40:30.239] !! [plugin] admin: Registering executor with pattern `#<Cinch::Pattern:0x00000002cf5380 @prefix="?", @pattern=/admin\s+(.+)/, @suffix=nil>`, reacting on `message`
+[2016/05/29 18:40:30.239] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002cf5380 @prefix="?", @pattern=/admin\s+(.+)/, @suffix=nil>`, reacting on `message`
+[2016/05/29 18:40:30.239] !! [plugin] httpserver: Registering listener for type `connect`
+[2016/05/29 18:40:30.239] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002cef048 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `connect`
+[2016/05/29 18:40:30.239] !! [plugin] httpserver: Registering listener for type `disconnect`
+[2016/05/29 18:40:30.239] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002cee3f0 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `disconnect`
+[2016/05/29 18:40:30.240] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002cec668 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `connect`
+[2016/05/29 18:40:30.240] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002cedd88 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `disconnect`
+[2016/05/29 18:40:30.240] II Connecting to irc.esper.net:6667
+[2016/05/29 18:40:30.325] << CAP LS 
+[2016/05/29 18:40:30.325] << NICK SkyBot 
+[2016/05/29 18:40:30.325] << USER 0 * :SkyBot
+[2016/05/29 18:40:30.410] >> :ranger.esper.net NOTICE * :*** Looking up your hostname...
+[2016/05/29 18:40:30.491] >> :ranger.esper.net NOTICE * :*** Checking Ident
+[2016/05/29 18:40:30.491] >> :ranger.esper.net NOTICE * :*** Found your hostname
+[2016/05/29 18:40:34.424] >> :ranger.esper.net NOTICE * :*** No Ident response
+[2016/05/29 18:40:34.504] >> :ranger.esper.net CAP * LS :account-notify away-notify extended-join multi-prefix sasl tls
+[2016/05/29 18:40:34.504] >> :ranger.esper.net 461 SkyBot USER :Not enough parameters
+[2016/05/29 18:40:34.505] << CAP REQ :away-notify multi-prefix sasl
+[2016/05/29 18:40:34.586] >> :ranger.esper.net CAP SkyBot ACK :away-notify multi-prefix sasl 
+[2016/05/29 18:40:34.587] << CAP END 
+[2016/05/29 18:41:22.642] >> ERROR :Closing Link: 127.0.0.1 (Connection timed out)
+[2016/05/29 18:41:22.645] !! Lost connection.
+[2016/05/29 18:41:22.645] !! [New thread] For #<Cinch::Handler @event=:disconnect pattern=#<Cinch::Pattern:0x00000002cee3f0 @prefix=nil, @pattern=//, @suffix=nil>>: #<Thread:0x00000002c91b78> -- 1 in total.
+[2016/05/29 18:41:22.646] !! [Stopping handler] Stopping all threads of handler #<Cinch::Handler @event=:message pattern=#<Cinch::Pattern:0x00000002cf5380 @prefix="?", @pattern=/admin\s+(.+)/, @suffix=nil>>: 0 threads...
+[2016/05/29 18:41:22.646] !! [New thread] For #<Cinch::Handler @event=:disconnect pattern=#<Cinch::Pattern:0x00000002cedd88 @prefix=nil, @pattern=//, @suffix=nil>>: #<Thread:0x00000002c919e8> -- 1 in total.
+[2016/05/29 18:41:22.646] II Halting HTTP server
+[2016/05/29 18:41:22.647] !! [Stopping handler] Stopping all threads of handler #<Cinch::Handler @event=:connect pattern=#<Cinch::Pattern:0x00000002cef048 @prefix=nil, @pattern=//, @suffix=nil>>: 0 threads...
+[2016/05/29 18:41:22.647] !! [Thread done] For #<Cinch::Handler @event=:disconnect pattern=#<Cinch::Pattern:0x00000002cedd88 @prefix=nil, @pattern=//, @suffix=nil>>: #<Thread:0x00000002c919e8> -- 0 remaining.
+[2016/05/29 18:41:22.647] !! /home/robotbrain/programs/skybot/lib/skybot/plugins/http_server.rb:253:in `stop_http_server': undefined method `stop!' for nil:NilClass (NoMethodError)
+[2016/05/29 18:41:22.648] !! 	/home/robotbrain/.rvm/gems/ruby-2.3.0/gems/cinch-2.3.2/lib/cinch/plugin.rb:350:in `block (2 levels) in __register_listeners'
+[2016/05/29 18:41:22.648] !! 	/home/robotbrain/.rvm/gems/ruby-2.3.0/gems/cinch-2.3.2/lib/cinch/handler.rb:99:in `block in call'
+[2016/05/29 18:41:22.648] !! [Stopping handler] Stopping all threads of handler #<Cinch::Handler @event=:connect pattern=#<Cinch::Pattern:0x00000002cec668 @prefix=nil, @pattern=//, @suffix=nil>>: 0 threads...
+[2016/05/29 18:41:22.648] !! [Thread done] For #<Cinch::Handler @event=:disconnect pattern=#<Cinch::Pattern:0x00000002cee3f0 @prefix=nil, @pattern=//, @suffix=nil>>: #<Thread:0x00000002c91b78> -- 0 remaining.
+[2016/05/29 18:41:22.648] !! [Stopping handler] Stopping all threads of handler #<Cinch::Handler @event=:disconnect pattern=#<Cinch::Pattern:0x00000002cee3f0 @prefix=nil, @pattern=//, @suffix=nil>>: 1 threads...
+[2016/05/29 18:41:22.648] !! [Stopping handler] Stopping all threads of handler #<Cinch::Handler @event=:disconnect pattern=#<Cinch::Pattern:0x00000002cedd88 @prefix=nil, @pattern=//, @suffix=nil>>: 0 threads...
+[2016/05/29 18:41:22.648] II Waiting 2 seconds before reconnecting
+[2016/05/29 18:41:24.648] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002c69268 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `connect`
+[2016/05/29 18:41:24.649] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002c68980 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `disconnect`
+[2016/05/29 18:41:24.649] II Connecting to irc.esper.net:6667
+[2016/05/29 18:41:24.702] << CAP LS 
+[2016/05/29 18:41:24.702] << NICK SkyBot 
+[2016/05/29 18:41:24.702] << USER 0 * :SkyBot
+[2016/05/29 18:41:24.757] >> :aperture.esper.net NOTICE * :*** Looking up your hostname...
+[2016/05/29 18:41:24.807] >> :aperture.esper.net NOTICE * :*** Checking Ident
+[2016/05/29 18:41:24.857] >> :aperture.esper.net NOTICE * :*** Found your hostname
+[2016/05/29 18:41:29.957] >> :aperture.esper.net NOTICE * :*** No Ident response
+[2016/05/29 18:41:30.007] >> :aperture.esper.net CAP * LS :account-notify away-notify extended-join multi-prefix sasl tls
+[2016/05/29 18:41:30.007] >> :aperture.esper.net 461 SkyBot USER :Not enough parameters
+[2016/05/29 18:41:30.008] << CAP REQ :away-notify multi-prefix sasl
+[2016/05/29 18:41:30.057] >> :aperture.esper.net CAP SkyBot ACK :away-notify multi-prefix sasl 
+[2016/05/29 18:41:30.057] << CAP END 
+[2016/05/29 18:43:49.798] !! [plugin] admin: Registering executor with pattern `#<Cinch::Pattern:0x00000002b77cd8 @prefix="?", @pattern=/admin\s+(.+)/, @suffix=nil>`, reacting on `message`
+[2016/05/29 18:43:49.798] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002b77cd8 @prefix="?", @pattern=/admin\s+(.+)/, @suffix=nil>`, reacting on `message`
+[2016/05/29 18:43:49.798] !! [plugin] httpserver: Registering listener for type `connect`
+[2016/05/29 18:43:49.798] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002b75ac8 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `connect`
+[2016/05/29 18:43:49.798] !! [plugin] httpserver: Registering listener for type `disconnect`
+[2016/05/29 18:43:49.798] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002b74e70 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `disconnect`
+[2016/05/29 18:43:49.798] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002b6f380 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `connect`
+[2016/05/29 18:43:49.798] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002b6eb10 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `disconnect`
+[2016/05/29 18:43:49.798] II Connecting to irc.esper.net:6667
+[2016/05/29 18:43:49.995] << CAP LS 
+[2016/05/29 18:43:49.995] << NICK SkyBot 
+[2016/05/29 18:43:49.995] << USER SkyBot 0 * :SkyBot
+[2016/05/29 18:43:50.107] >> :anarchy.esper.net NOTICE * :*** Looking up your hostname...
+[2016/05/29 18:43:50.217] >> :anarchy.esper.net NOTICE * :*** Checking Ident
+[2016/05/29 18:43:50.328] >> :anarchy.esper.net NOTICE * :*** Found your hostname
+[2016/05/29 18:43:55.105] >> :anarchy.esper.net NOTICE * :*** No Ident response
+[2016/05/29 18:43:55.217] >> :anarchy.esper.net CAP * LS :account-notify away-notify extended-join multi-prefix sasl tls
+[2016/05/29 18:43:55.217] >> PING :D940C7A4
+[2016/05/29 18:43:55.217] << CAP REQ :away-notify multi-prefix sasl
+[2016/05/29 18:43:55.217] << PONG :D940C7A4
+[2016/05/29 18:43:55.327] >> :anarchy.esper.net CAP SkyBot ACK :away-notify multi-prefix sasl 
+[2016/05/29 18:43:55.328] << CAP END 
+[2016/05/29 18:43:56.032] >> :anarchy.esper.net 001 SkyBot :Welcome to the EsperNet Internet Relay Chat Network SkyBot
+[2016/05/29 18:43:56.036] >> :anarchy.esper.net 002 SkyBot :Your host is anarchy.esper.net[51.255.119.242/6667], running version charybdis-3.5.0-dev
+[2016/05/29 18:43:56.036] II Detected IRCd: charybdis
+[2016/05/29 18:43:56.037] >> :anarchy.esper.net 003 SkyBot :This server was created Tue Dec 15 2015 at 17:57:23 EST
+[2016/05/29 18:43:56.037] >> :anarchy.esper.net 004 SkyBot anarchy.esper.net charybdis-3.5.0-dev DQRSZagiloswz CFILPQTbcefgijklmnopqrstvz bkloveqjfI 
+[2016/05/29 18:43:56.037] !! [New thread] For #<Cinch::Handler @event=:connect pattern=#<Cinch::Pattern:0x00000002b75ac8 @prefix=nil, @pattern=//, @suffix=nil>>: #<Thread:0x00000002af6d68> -- 1 in total.
+[2016/05/29 18:43:56.038] !! [New thread] For #<Cinch::Handler @event=:connect pattern=#<Cinch::Pattern:0x00000002b6f380 @prefix=nil, @pattern=//, @suffix=nil>>: #<Thread:0x00000002af68e0> -- 0 in total.
+[2016/05/29 18:43:56.038] >> :anarchy.esper.net 005 SkyBot SAFELIST ELIST=CTU CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLPQTcgimnprstz CHANLIMIT=#:50 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=EsperNet KNOCK :are supported by this server
+[2016/05/29 18:43:56.039] II Starting HTTP server on 0.0.0.0 port 1234
+[2016/05/29 18:43:56.039] !! [timer] Starting timer <Cinch::Timer 0/1 shots, 0s interval, threaded, not started, block: #<Proc:0x00000002b6f560@/home/robotbrain/.rvm/gems/ruby-2.3.0/gems/cinch-2.3.2/lib/cinch/bot.rb:264>>
+[2016/05/29 18:43:56.039] II Detected network: espernet
+[2016/05/29 18:43:56.040] !! [Thread done] For #<Cinch::Handler @event=:connect pattern=#<Cinch::Pattern:0x00000002b6f380 @prefix=nil, @pattern=//, @suffix=nil>>: #<Thread:0x00000002af68e0> -- 0 remaining.
+[2016/05/29 18:43:56.040] >> :anarchy.esper.net 005 SkyBot STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 NICKLEN=30 MAXNICKLEN=30 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 :are supported by this server
+[2016/05/29 18:43:56.040] >> :anarchy.esper.net 005 SkyBot FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,acjorsxz WHOX CLIENTVER=3.0 :are supported by this server
+[2016/05/29 18:43:56.040] >> :anarchy.esper.net 251 SkyBot :There are 10 users and 7313 invisible on 14 servers
+[2016/05/29 18:43:56.041] >> :anarchy.esper.net 252 SkyBot 34 :IRC Operators online
+[2016/05/29 18:43:56.041] >> :anarchy.esper.net 253 SkyBot 1 :unknown connection(s)
+[2016/05/29 18:43:56.041] >> :anarchy.esper.net 254 SkyBot 5533 :channels formed
+[2016/05/29 18:43:56.041] >> :anarchy.esper.net 255 SkyBot :I have 1844 clients and 1 servers
+[2016/05/29 18:43:56.041] >> :anarchy.esper.net 265 SkyBot 1844 3383 :Current local users 1844, max 3383
+[2016/05/29 18:43:56.041] >> :anarchy.esper.net 266 SkyBot 7323 8581 :Current global users 7323, max 8581
+[2016/05/29 18:43:56.041] << JOIN #MultiMC 
+[2016/05/29 18:43:56.041] >> :anarchy.esper.net 250 SkyBot :Highest connection count: 3384 (3383 clients) (313479 connections received)
+[2016/05/29 18:43:56.042] >> :anarchy.esper.net 375 SkyBot :- anarchy.esper.net Message of the Day - 
+[2016/05/29 18:43:56.042] >> :anarchy.esper.net 372 SkyBot :-  (  ___  )( (    /|(  ___  )(  ____ )(  ____ \|\     /||\     /|
+[2016/05/29 18:43:56.042] >> :anarchy.esper.net 372 SkyBot :-  | (   ) ||  \  ( || (   ) || (    )|| (    \/| )   ( |( \   / )
+[2016/05/29 18:43:56.042] >> :anarchy.esper.net 372 SkyBot :-  | (___) ||   \ | || (___) || (____)|| |      | (___) | \ (_) /
+[2016/05/29 18:43:56.042] >> :anarchy.esper.net 372 SkyBot :-  |  ___  || (\ \) ||  ___  ||     __)| |      |  ___  |  \   /
+[2016/05/29 18:43:56.042] >> :anarchy.esper.net 372 SkyBot :-  | (   ) || | \   || (   ) || (\ (   | |      | (   ) |   ) (
+[2016/05/29 18:43:56.042] >> :anarchy.esper.net 372 SkyBot :-  | )   ( || )  \  || )   ( || ) \ \__| (____/\| )   ( |   | |
+[2016/05/29 18:43:56.043] >> :anarchy.esper.net 372 SkyBot :-  |/     \||/    )_)|/     \||/   \__/(_______/|/     \|   \_/
+[2016/05/29 18:43:56.043] >> :anarchy.esper.net 372 SkyBot :-  
+[2016/05/29 18:43:56.043] >> :anarchy.esper.net 372 SkyBot :-                     anarchy.esper.net
+[2016/05/29 18:43:56.043] >> :anarchy.esper.net 372 SkyBot :-                     
+[2016/05/29 18:43:56.043] >> :anarchy.esper.net 372 SkyBot :-       Location: Strasbourg, France
+[2016/05/29 18:43:56.043] >> :anarchy.esper.net 372 SkyBot :-       Ports (IPv4/IPv6): 5555, 6666 .. 6669, 6697 (TLS), 7000
+[2016/05/29 18:43:56.043] >> :anarchy.esper.net 372 SkyBot :-       
+[2016/05/29 18:43:56.043] >> :anarchy.esper.net 372 SkyBot :-       Ringleader (Administrators): Steve_Restless (Steve_Restless@esper.net)
+[2016/05/29 18:43:56.044] >> :anarchy.esper.net 372 SkyBot :-       
+[2016/05/29 18:43:56.044] >> :anarchy.esper.net 372 SkyBot :-       Revolutionaries (Operators): RyanKnack (ryanknack@esper.net)
+[2016/05/29 18:43:56.044] >> :anarchy.esper.net 372 SkyBot :-  
+[2016/05/29 18:43:56.044] >> :anarchy.esper.net 372 SkyBot :-                 __.--.____________.--.__
+[2016/05/29 18:43:56.044] >> :anarchy.esper.net 372 SkyBot :-                (       _.------._       ).
+[2016/05/29 18:43:56.044] >> :anarchy.esper.net 372 SkyBot :-                 '._.--'    ||    '--._.'  )
+[2016/05/29 18:43:56.044] >> :anarchy.esper.net 372 SkyBot :-                  | |================| || (
+[2016/05/29 18:43:56.044] >> :anarchy.esper.net 372 SkyBot :-                  | ||               | ||  )
+[2016/05/29 18:43:56.044] >> :anarchy.esper.net 372 SkyBot :-                  | ||              _| || (
+[2016/05/29 18:43:56.045] >> :anarchy.esper.net 372 SkyBot :-                  | ||          _.-' | ||  )
+[2016/05/29 18:43:56.045] >> :anarchy.esper.net 372 SkyBot :-                  | ||      _.-'     | || (
+[2016/05/29 18:43:56.045] >> :anarchy.esper.net 372 SkyBot :-                  | ||  _.-'         | ||  )
+[2016/05/29 18:43:56.045] >> :anarchy.esper.net 372 SkyBot :-                  | |.-'             | || (
+[2016/05/29 18:43:56.045] >> :anarchy.esper.net 372 SkyBot :-                  | ||               | ||  )
+[2016/05/29 18:43:56.045] >> :anarchy.esper.net 372 SkyBot :-                  | ||               | || (
+[2016/05/29 18:43:56.045] >> :anarchy.esper.net 372 SkyBot :-                  | ||               | ||  )
+[2016/05/29 18:43:56.045] >> :anarchy.esper.net 372 SkyBot :-                  | ||               | || (
+[2016/05/29 18:43:56.045] >> :anarchy.esper.net 372 SkyBot :-                  | ||               | ||  )
+[2016/05/29 18:43:56.046] >> :anarchy.esper.net 372 SkyBot :-                  | ||               | || (
+[2016/05/29 18:43:56.046] >> :anarchy.esper.net 372 SkyBot :-                  | .---.            | ||  )
+[2016/05/29 18:43:56.046] >> :anarchy.esper.net 372 SkyBot :-                  | |   |            | || (
+[2016/05/29 18:43:56.046] >> :anarchy.esper.net 372 SkyBot :-                  | |   |            | ||  )
+[2016/05/29 18:43:56.046] >> :anarchy.esper.net 372 SkyBot :-                  | |  .'            | || (
+[2016/05/29 18:43:56.046] >> :anarchy.esper.net 372 SkyBot :-                  | | '              | ||  )
+[2016/05/29 18:43:56.046] >> :anarchy.esper.net 372 SkyBot :-                  | |  '.            | || (
+[2016/05/29 18:43:56.046] >> :anarchy.esper.net 372 SkyBot :-                  | |   |            | ||  )
+[2016/05/29 18:43:56.046] >> :anarchy.esper.net 372 SkyBot :-                  | |O__|  .))).     | || (
+[2016/05/29 18:43:56.046] >> :anarchy.esper.net 372 SkyBot :-                  | ||    ( O O )    | ||
+[2016/05/29 18:43:56.046] >> :anarchy.esper.net 372 SkyBot :-                  | ||===._ (_) _.===| ||
+[2016/05/29 18:43:56.047] >> :anarchy.esper.net 372 SkyBot :-                  | ||     '-.-'     | ||
+[2016/05/29 18:43:56.047] >> :anarchy.esper.net 372 SkyBot :-                  | ||      The      | ||
+[2016/05/29 18:43:56.047] >> :anarchy.esper.net 372 SkyBot :-                  | ||   Revolution  | ||
+[2016/05/29 18:43:56.047] >> :anarchy.esper.net 372 SkyBot :-                  | ||   has begun!  | ||
+[2016/05/29 18:43:56.047] >> :anarchy.esper.net 372 SkyBot :-                  | ||    ______     | ||
+[2016/05/29 18:43:56.047] >> :anarchy.esper.net 372 SkyBot :-              LGB | ||   /      \    | ||
+[2016/05/29 18:43:56.047] >> :anarchy.esper.net 372 SkyBot :-                __| ||  (\______/)   | ||_____
+[2016/05/29 18:43:56.047] >> :anarchy.esper.net 372 SkyBot :-               /__| ||___) |''| (____| ||____/
+[2016/05/29 18:43:56.047] >> :anarchy.esper.net 372 SkyBot :-              /___|_|/  (________)   |_|/___/
+[2016/05/29 18:43:56.048] >> :anarchy.esper.net 372 SkyBot :-             /_____________________________/ 
+[2016/05/29 18:43:56.048] >> :anarchy.esper.net 372 SkyBot :-  
+[2016/05/29 18:43:56.048] >> :anarchy.esper.net 372 SkyBot :-       Policies, rules, etc:
+[2016/05/29 18:43:56.048] >> :anarchy.esper.net 372 SkyBot :-         All users must follow the guidelines set forth in the Esper
+[2016/05/29 18:43:56.048] >> :anarchy.esper.net 372 SkyBot :-         network charter: http://esper.net/charter.php
+[2016/05/29 18:43:56.048] >> :anarchy.esper.net 372 SkyBot :-         Bots are permitted, but must follow the same rules as users.
+[2016/05/29 18:43:56.048] >> :anarchy.esper.net 372 SkyBot :-         \u0002Additional Bot Policy at: http://esper.net/bots.php \u0002
+[2016/05/29 18:43:56.048] >> :anarchy.esper.net 372 SkyBot :-         Fserves are strictly forbidden (XDCC, etc.)
+[2016/05/29 18:43:56.048] >> :anarchy.esper.net 372 SkyBot :-         All users must follow French and applicable international law.
+[2016/05/29 18:43:56.049] >> :anarchy.esper.net 372 SkyBot :-         Your use of this network implies consent to perform a proxy scan.
+[2016/05/29 18:43:56.049] >> :anarchy.esper.net 372 SkyBot :-         We reserve the right to remove anyone at any time for any reason.
+[2016/05/29 18:43:56.049] >> :anarchy.esper.net 372 SkyBot :-         
+[2016/05/29 18:43:56.049] >> :anarchy.esper.net 372 SkyBot :-       Channels:
+[2016/05/29 18:43:56.049] >> :anarchy.esper.net 372 SkyBot :-         \u0002#dragonweyr\u0002     - Issues requiring network staff intervention.
+[2016/05/29 18:43:56.049] >> :anarchy.esper.net 372 SkyBot :-         \u0002#help\u0002           - General IRC help.
+[2016/05/29 18:43:56.049] >> :anarchy.esper.net 372 SkyBot :-     
+[2016/05/29 18:43:56.049] >> :anarchy.esper.net 372 SkyBot :-       (Note: these names have been bolded to prevent them from being clickable
+[2016/05/29 18:43:56.049] >> :anarchy.esper.net 372 SkyBot :-              by certain browser-based clients. To join a channel, type /join name.)
+[2016/05/29 18:43:56.050] >> :anarchy.esper.net 372 SkyBot :-                                                                 
+[2016/05/29 18:43:56.147] >> :anarchy.esper.net 372 SkyBot :-        Notes:
+[2016/05/29 18:43:56.147] >> :anarchy.esper.net 372 SkyBot :-         Esper serves many communities, please be aware that not every channel
+[2016/05/29 18:43:56.147] >> :anarchy.esper.net 372 SkyBot :-           is dedicated to the particular community you've come to visit.
+[2016/05/29 18:43:56.148] >> :anarchy.esper.net 372 SkyBot :-           
+[2016/05/29 18:43:56.148] >> :anarchy.esper.net 372 SkyBot :-         New to IRC? Helpful information:
+[2016/05/29 18:43:56.148] >> :anarchy.esper.net 372 SkyBot :-           http://www.esper.net/getting_started.php
+[2016/05/29 18:43:56.148] >> :anarchy.esper.net 376 SkyBot :End of /MOTD command.
+[2016/05/29 18:43:56.148] >> :SkyBot MODE SkyBot :+i
+[2016/05/29 18:43:56.155] >> :SkyBot!~SkyBot@pool-98-115-28-71.phlapa.fios.verizon.net JOIN #MultiMC 
+[2016/05/29 18:43:56.155] << WHO #MultiMC %acfhnru 
+[2016/05/29 18:43:56.155] >> :anarchy.esper.net 332 SkyBot #MultiMC :MultiMC is a Minecraft launcher. Get it here: https://multimc.org | Post bug reports and feature requests at http://goo.gl/amrcGR | Support us on Patreon! http://www.patreon.com/multimc | See the ever growing pile of ideas: https://workflowy.com/s/2EyDMcp7CU
+[2016/05/29 18:43:56.156] << MODE #MultiMC +b 
+[2016/05/29 18:43:56.156] << MODE #MultiMC 
+[2016/05/29 18:43:56.156] >> :anarchy.esper.net 333 SkyBot #MultiMC peterix!quassel@quassel.woboq.de 1458859343 
+[2016/05/29 18:43:56.156] >> :anarchy.esper.net 353 SkyBot = #MultiMC :SkyBot sneezing_panda Heufneutje Doty1154 CommunistWitchDr Aedda NolanSyKinsley Nazca Saturn812 Lathanael|Away kuzetsa @carrot Zesty dustinm Slikrick DesertIce ShaRose MageRooster Lunatrius cord2 Hobbyboy taelnia surferconor425 SuPeRMiNoR2 Zerant DWKnight Ajloveslily|Sleep helinus|off zetaPRIME number5 v^ Mumfrey +Kilobyte Zeldo ashka Telshin LokiChaos frea ostPavel ljfa Kamran Jerzerak_ ElrosGem +jandal Doctors Ricky metathiax subzero Kaelten Mu5tank05
+[2016/05/29 18:43:56.267] >> :anarchy.esper.net 353 SkyBot = #MultiMC :neersighted TacoGS Galaxy_2Alex Lain|log meepmeep22 gabizou gruetzkopf MattaBase Nikkii @zsh taksuyu Sephiroth RyanTheAllmighty Dark_Hunter xnrand @peterix manmaed|AFK IoP latexink Meow-J Darkwind321 Pyker SnowShock35 Cazzar Goldfish Matthew MyPictures|AFK TheNumb progwml6 flappy RX14 cat5e Synergiance WizardCM Razaekel nyuszika7h RoboSky z0ttel pjfranke useless2764 tterrag ChewCraft Algent eyamaz rolts GuntherDW Keridos|away clienthax _123DMWM @Forkk
+[2016/05/29 18:43:56.271] >> :anarchy.esper.net 353 SkyBot = #MultiMC :Greenphlem clever m1cr0man build-kitteh LordFokas|out @Orochimarufan dmod
+[2016/05/29 18:43:56.272] >> :anarchy.esper.net 366 SkyBot #MultiMC :End of /NAMES list.
+[2016/05/29 18:43:56.272] >> :anarchy.esper.net 354 SkyBot #MultiMC ~SkyBot pool-98-115-28-71.phlapa.fios.verizon.net SkyBot H 0 :SkyBot
+[2016/05/29 18:43:56.272] >> :anarchy.esper.net 354 SkyBot #MultiMC ~panda 2602:306:37ed:b610:d1b:217:1138:da3c sneezing_panda H sneezing_panda :realname
+[2016/05/29 18:43:56.272] >> :anarchy.esper.net 354 SkyBot #MultiMC Heufy ip51ce43dd.speed.planet.nl Heufneutje H Heufneutje :Stefan
+[2016/05/29 18:43:56.272] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Doty1154 2601:648:8000:134f:756c:b3c3:462d:88ce Doty1154 G Doty1154 :Doty D
+[2016/05/29 18:43:56.273] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Communist 2602:306:cf3e:1320:70ed:2f73:1f52:5168 CommunistWitchDr H 0 :Mitchell Hale
+[2016/05/29 18:43:56.273] >> :anarchy.esper.net 354 SkyBot #MultiMC ~aedda 2600:3c00::19:cace Aedda H Aedda :Aedda
+[2016/05/29 18:43:56.273] >> :anarchy.esper.net 354 SkyBot #MultiMC ~NolanSyKi 2606:6000:5112:df00:953f:9f1d:ae4a:5941 NolanSyKinsley H NolanSyKinsley :realname
+[2016/05/29 18:43:56.273] >> :anarchy.esper.net 354 SkyBot #MultiMC ~nazca host31-50-151-175.range31-50.btcentralplus.com Nazca H 0 :kaithar
+[2016/05/29 18:43:56.273] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Saturn812 93.170.168.24 Saturn812 G Saturn812 :Andre
+[2016/05/29 18:43:56.273] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Lathanael p54961E61.dip0.t-ipconnect.de Lathanael|Away G Lathanael :n/a
+[2016/05/29 18:43:56.273] >> :anarchy.esper.net 354 SkyBot #MultiMC znc yurizoku.tk kuzetsa H kuzetsa :Sarah White
+[2016/05/29 18:43:56.274] >> :anarchy.esper.net 354 SkyBot #MultiMC ~carrot 2a01:7e00::f03c:91ff:fe73:1488 carrot H@ drayshak :c
+[2016/05/29 18:43:56.274] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Zesty 180.97.28.12 Zesty G Zesty :Zesty
+[2016/05/29 18:43:56.274] >> :anarchy.esper.net 354 SkyBot #MultiMC ~dustinm 68.ip-149-56-14.net dustinm H 0 :dustinm
+[2016/05/29 18:43:56.274] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Slikrick9 2601:19c:4701:ff54:a559:94d6:98db:c03f Slikrick H Slikrick98 :realname
+[2016/05/29 18:43:56.274] >> :anarchy.esper.net 354 SkyBot #MultiMC ~DesertIce 98.7.1.173 DesertIce H DesertIce :realname
+[2016/05/29 18:43:56.274] >> :anarchy.esper.net 354 SkyBot #MultiMC ShaRose i.am.sharo.se ShaRose H ShaRose :ShaRose
+[2016/05/29 18:43:56.274] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Rooster c-76-22-110-2.hsd1.wa.comcast.net MageRooster H MageRooster :Rooster
+[2016/05/29 18:43:56.275] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Lunatrius 77.38.77.164 Lunatrius H Lunatrius :Jadran Kotnik
+[2016/05/29 18:43:56.275] >> :anarchy.esper.net 354 SkyBot #MultiMC ~cord2 is.aww.moe cord2 H 0 :cord2
+[2016/05/29 18:43:56.275] >> :anarchy.esper.net 354 SkyBot #MultiMC Hobbyboy hobbyboy.co.uk Hobbyboy G Hobbyboy :Andrew
+[2016/05/29 18:43:56.275] >> :anarchy.esper.net 354 SkyBot #MultiMC ~taelnia cpe-172-101-100-222.buffalo.res.rr.com taelnia H taelnia :taelnia
+[2016/05/29 18:43:56.275] >> :anarchy.esper.net 354 SkyBot #MultiMC ~surfercon 46.101.41.205 surferconor425 H surferconor425 :Conor
+[2016/05/29 18:43:56.275] >> :anarchy.esper.net 354 SkyBot #MultiMC ~SuPeR eve.superminor2.net SuPeRMiNoR2 G SuPeRMiNoR2 :super
+[2016/05/29 18:43:56.275] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Zerant 5.196.237.209 Zerant G Zerant :Zerant
+[2016/05/29 18:43:56.276] >> :anarchy.esper.net 354 SkyBot #MultiMC ~dwknight sydnns0115w-156057252002.dhcp-dynamic.FibreOp.ns.bellaliant.net DWKnight H 0 :Harold Feit
+[2016/05/29 18:43:56.276] >> :anarchy.esper.net 354 SkyBot #MultiMC Ajloveslil welcome.to.pandoras.box.panicbnc.eu Ajloveslily|Sleep G ajloveslily :Skwid
+[2016/05/29 18:43:56.276] >> :anarchy.esper.net 354 SkyBot #MultiMC ~helinus znc.helinus.se helinus|off H helinus :helinus
+[2016/05/29 18:43:56.276] >> :anarchy.esper.net 354 SkyBot #MultiMC ~zetaPRIME 209.141.57.4 zetaPRIME H zetaPRIME :zetaPRIME
+[2016/05/29 18:43:56.276] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Odovbold 128.199.254.128 number5 H number5 :Got ZNC?
+[2016/05/29 18:43:56.276] >> :anarchy.esper.net 354 SkyBot #MultiMC ~v^ c-68-41-215-101.hsd1.mi.comcast.net v^ G ping :PixelToast
+[2016/05/29 18:43:56.276] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Mumfrey dedi5.eq2.co.uk Mumfrey H Mumfrey :Mumfrey
+[2016/05/29 18:43:56.277] >> :anarchy.esper.net 354 SkyBot #MultiMC kilobyte cucumber.kilobyte22.de Kilobyte H+ Stiepen :That's me
+[2016/05/29 18:43:56.277] >> :anarchy.esper.net 354 SkyBot #MultiMC sid31320 id-31320.highgate.irccloud.com Zeldo G Zeldo :Zeldo
+[2016/05/29 18:43:56.277] >> :anarchy.esper.net 354 SkyBot #MultiMC ~postmaste 163-172-17-31.rev.poneytelecom.eu ashka G ashka :ashka
+[2016/05/29 18:43:56.277] >> :anarchy.esper.net 354 SkyBot #MultiMC sid114244 2604:8300:100:200b:6667:5:1:be44 Telshin G Telshin :Telshin
+[2016/05/29 18:43:56.277] >> :anarchy.esper.net 354 SkyBot #MultiMC ~User c-98-221-80-87.hsd1.nj.comcast.net LokiChaos H LokiChaos :User
+[2016/05/29 18:43:56.277] >> :anarchy.esper.net 354 SkyBot #MultiMC ~frea triton.blinkenshell.org frea H 0 :Frea
+[2016/05/29 18:43:56.277] >> :anarchy.esper.net 354 SkyBot #MultiMC ~ostPavel ftbwiki.org ostPavel H ostPavel :Pavel
+[2016/05/29 18:43:56.278] >> :anarchy.esper.net 354 SkyBot #MultiMC ljfa is.aww.moe ljfa G ljfa :ljfa
+[2016/05/29 18:43:56.278] >> :anarchy.esper.net 354 SkyBot #MultiMC Kamran Youre.All.Mad.PanicBNC.ca Kamran H 0 :Kamran Mackey
+[2016/05/29 18:43:56.278] >> :anarchy.esper.net 354 SkyBot #MultiMC sid60746 2604:8300:100:200b:6667:5:0:ed4a Jerzerak_ G 0 :Jerzerak
+[2016/05/29 18:43:56.278] >> :anarchy.esper.net 354 SkyBot #MultiMC ~ElrosGem 45.55.231.139 ElrosGem H ElrosGem :ElrosGem the {x|x > 9}th
+[2016/05/29 18:43:56.278] >> :anarchy.esper.net 354 SkyBot #MultiMC ~quassel li951-76.members.linode.com jandal G+ jan :Jan Dalheimer
+[2016/05/29 18:43:56.278] >> :anarchy.esper.net 354 SkyBot #MultiMC ~doctor disconsented.com Doctors G The_Doctors_Life :Benjamin H.
+[2016/05/29 18:43:56.278] >> :anarchy.esper.net 354 SkyBot #MultiMC Ricky heyyyyyy.gurlllllll.heyyyyyyyyyyy.PanicBNC.net Ricky H Ricky :Ricky
+[2016/05/29 18:43:56.278] >> :anarchy.esper.net 354 SkyBot #MultiMC Metathiax The.Cookie.Monster.Stole.my.Coookies.PanicBNC.us metathiax H Metathiax :Metathiax
+[2016/05/29 18:43:56.279] >> :anarchy.esper.net 354 SkyBot #MultiMC ~subzero feign.dk subzero H 0 :subzero
+[2016/05/29 18:43:56.279] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Kaelten 2600:3c00::f03c:91ff:fedb:9160 Kaelten H Kaelten :Got ZNC?
+[2016/05/29 18:43:56.279] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Mu5tank05 waldo.blny.me Mu5tank05 G 0 :Nathan Blaney
+[2016/05/29 18:43:56.279] >> :anarchy.esper.net 354 SkyBot #MultiMC ~neer firebrand.neer.io neersighted G neersighted :Bjorn Neergaard
+[2016/05/29 18:43:56.279] >> :anarchy.esper.net 354 SkyBot #MultiMC ~TacoGS vhost.tacogs.com TacoGS H 0 :TacoGS
+[2016/05/29 18:43:56.279] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Alex 104.236.144.196 Galaxy_2Alex H Galaxy_2Alex :Alex
+[2016/05/29 18:43:56.279] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Aphrael baka.khobbits.co.uk Lain|log H Lain|log :Child-Goddess of the Styricum
+[2016/05/29 18:43:56.279] >> :anarchy.esper.net 354 SkyBot #MultiMC sid44664 highgate.irccloud.com meepmeep22 H meepmeep22 :Max
+[2016/05/29 18:43:56.280] >> :anarchy.esper.net 354 SkyBot #MultiMC ~gabizou irc.spongepowered.org gabizou H gabizou :Gabriel Harris-Rouquette
+[2016/05/29 18:43:56.280] >> :anarchy.esper.net 354 SkyBot #MultiMC gruetzkopf captured-elf.dont-follow-me.eu gruetzkopf H gruetzkopf :gruetzkopf
+[2016/05/29 18:43:56.280] >> :anarchy.esper.net 354 SkyBot #MultiMC ~TheMattaB mars.c4.io MattaBase H MattaBase :Matthew Girard
+[2016/05/29 18:43:56.280] >> :anarchy.esper.net 354 SkyBot #MultiMC ~nikki 37.247.49.127 Nikkii H 0 :nikki
+[2016/05/29 18:43:56.280] >> :anarchy.esper.net 354 SkyBot #MultiMC zsh services.esper.net zsh H*@ 0 :zsh: Being superior to every other shell out there
+[2016/05/29 18:43:56.280] >> :anarchy.esper.net 354 SkyBot #MultiMC ~taksuyu li206-240.members.linode.com taksuyu G taksuyu :Got ZNC?
+[2016/05/29 18:43:56.280] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Sephiroth sephiroth.ws Sephiroth H Sephiroth :Sephiroth
+[2016/05/29 18:43:56.280] >> :anarchy.esper.net 354 SkyBot #MultiMC ~RyanTheAl 104.168.164.249 RyanTheAllmighty H RyanTheAllmighty :RyanTheAllmighty
+[2016/05/29 18:43:56.281] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Dark_Hunt 2607:5300:60:19e3::1 Dark_Hunter H Dark_Hunter :LAC
+[2016/05/29 18:43:56.281] >> :anarchy.esper.net 354 SkyBot #MultiMC xnrand 0.xnrand.com xnrand H xy :xnrand
+[2016/05/29 18:43:56.281] >> :anarchy.esper.net 354 SkyBot #MultiMC quassel quassel.woboq.de peterix H@ peterix :Petr Mrazek
+[2016/05/29 18:43:56.281] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Ender bcdf031c.skybroadband.com manmaed|AFK G manmaed :manmaed
+[2016/05/29 18:43:56.281] >> :anarchy.esper.net 354 SkyBot #MultiMC jikuja irc.ioppi.info IoP H IoP :IoP
+[2016/05/29 18:43:56.281] >> :anarchy.esper.net 354 SkyBot #MultiMC ~AtomBomb sarlacc.w3.org latexink G latexink :AtomBomb
+[2016/05/29 18:43:56.281] >> :anarchy.esper.net 354 SkyBot #MultiMC uid69628 id-69628.highgate.irccloud.com Meow-J H Meow-J :Meow J
+[2016/05/29 18:43:56.281] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Darkwind3 2604:180::2b38:2010 Darkwind321 G 0 :Darkwind321
+[2016/05/29 18:43:56.281] >> :anarchy.esper.net 354 SkyBot #MultiMC pyker pyker.net Pyker H Pyker :Pyker
+[2016/05/29 18:43:56.282] >> :anarchy.esper.net 354 SkyBot #MultiMC ~SnowShock 2607:5300:100:200::17a0 SnowShock35 G SnowShock35 :Jordan
+[2016/05/29 18:43:56.282] >> :anarchy.esper.net 354 SkyBot #MultiMC ~CazzarZNC vocaloid.lovers.at.cazzar.net Cazzar G cazzar :Cazzar
+[2016/05/29 18:43:56.282] >> :anarchy.esper.net 354 SkyBot #MultiMC Goldfish Bounce.Around.The.World.PanicBNC.org Goldfish H 0 :Mike
+[2016/05/29 18:43:56.282] >> :anarchy.esper.net 354 SkyBot #MultiMC ~matthew matthewprenger.com Matthew G matthewprenger :Matthew Prenger
+[2016/05/29 18:43:56.282] >> :anarchy.esper.net 354 SkyBot #MultiMC bnc 2001:41d0:1:68a3::69 MyPictures|AFK H MyPictures :MyPictures
+[2016/05/29 18:43:56.282] >> :anarchy.esper.net 354 SkyBot #MultiMC thenumb 91.185.191.213 TheNumb G 0 :TheNumb
+[2016/05/29 18:43:56.282] >> :anarchy.esper.net 354 SkyBot #MultiMC ~progwml6 104.168.20.187 progwml6 H progwml6 :Progwml6 DVS1 ZNC
+[2016/05/29 18:43:56.283] >> :anarchy.esper.net 354 SkyBot #MultiMC ~flappy a88-113-155-120.elisa-laajakaista.fi flappy H flappy :realname
+[2016/05/29 18:43:56.283] >> :anarchy.esper.net 354 SkyBot #MultiMC ~RX14 isnt.aww.moe RX14 H rx14 :Chris Hobbs
+[2016/05/29 18:43:56.283] >> :anarchy.esper.net 354 SkyBot #MultiMC SoniEx2 189.55.64.196 cat5e H SoniEx2 :\u00034\u000F\u000304DEDIC\u000307ATED \u000308REDST\u000303ONE O\u000312VERTI\u000306CKER
+[2016/05/29 18:43:56.283] >> :anarchy.esper.net 354 SkyBot #MultiMC ~syn lsv1.synerfiles.info Synergiance H Synergiance :Synergiance
+[2016/05/29 18:43:56.283] >> :anarchy.esper.net 354 SkyBot #MultiMC ~WizardCM 2001:470:1f07:8d7:6:6:6:16 WizardCM G 0 :WizardCM
+[2016/05/29 18:43:56.283] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Per 104.236.226.72 Razaekel H Razaekal :Astra
+[2016/05/29 18:43:56.283] >> :anarchy.esper.net 354 SkyBot #MultiMC nyuszika7h cadoth.net nyuszika7h G nyuszika7h :nyuszika7h
+[2016/05/29 18:43:56.283] >> :anarchy.esper.net 354 SkyBot #MultiMC ~robotbrai 2604:a880:800:10::94a:d001 RoboSky H robotbrain :robotbrain
+[2016/05/29 18:43:56.283] >> :anarchy.esper.net 354 SkyBot #MultiMC ~ident 2a01:4f8:100:7ffe:2::2 z0ttel G 0 :Z0ttel Baer
+[2016/05/29 18:43:56.284] >> :anarchy.esper.net 354 SkyBot #MultiMC sid103612 2604:8300:100:200b:6667:4:1:94bc pjfranke G pjfranke :Peabody J Franklin
+[2016/05/29 18:43:56.284] >> :anarchy.esper.net 354 SkyBot #MultiMC useless meerkat.danmackay.com useless2764 H useless2764 :nope
+[2016/05/29 18:43:56.284] >> :anarchy.esper.net 354 SkyBot #MultiMC ~tterrag tterrag.com tterrag G tterrag :Garrett
+[2016/05/29 18:43:56.284] >> :anarchy.esper.net 354 SkyBot #MultiMC sid35940 2604:8300:100:200b:6667:2:0:8c64 ChewCraft H Chew :Chew
+[2016/05/29 18:43:56.284] >> :anarchy.esper.net 354 SkyBot #MultiMC sid23096 2604:8300:100:200b:6667:2:0:5a38 Algent G Algent :Algent
+[2016/05/29 18:43:56.284] >> :anarchy.esper.net 354 SkyBot #MultiMC sid40777 2604:8300:100:200b:6667:3:0:9f49 eyamaz H Eyamaz :eyamaz
+[2016/05/29 18:43:56.284] >> :anarchy.esper.net 354 SkyBot #MultiMC ~rolts ns504449.ip-198-100-146.net rolts G 0 :rolts
+[2016/05/29 18:43:56.284] >> :anarchy.esper.net 354 SkyBot #MultiMC ~guntherdw ks3308665.kimsufi.com GuntherDW H GuntherDW :GuntherDW
+[2016/05/29 18:43:56.285] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Keridos ironhide.stw-bonn.de Keridos|away G Keridos :Got ZNC?
+[2016/05/29 18:43:56.285] >> :anarchy.esper.net 354 SkyBot #MultiMC sid14726 2604:8300:100:200b:6667:1:0:3986 clienthax G clienthax :clienthax
+[2016/05/29 18:43:56.380] >> :anarchy.esper.net 354 SkyBot #MultiMC 123DMWM omega.classicube.net _123DMWM H _123DMWM :Name: Joseph Beauvais | Skype: one23dontmesswitme
+[2016/05/29 18:43:56.380] >> :anarchy.esper.net 354 SkyBot #MultiMC ~forkk 2607:5300:60:7d5::1 Forkk G@ Forkk13 :Andrew Okin
+[2016/05/29 18:43:56.380] >> :anarchy.esper.net 354 SkyBot #MultiMC uid22276 2604:8300:100:200b:6667:4:0:5704 Greenphlem H Greenphlem :Greenphlem
+[2016/05/29 18:43:56.380] >> :anarchy.esper.net 354 SkyBot #MultiMC ~clever nwcsnbsc03w-047055226178.dhcp-dynamic.FibreOp.nb.bellaliant.net clever H 0 :michael bishop
+[2016/05/29 18:43:56.380] >> :anarchy.esper.net 354 SkyBot #MultiMC ~m1cr0man ns312254.ip-188-165-194.eu m1cr0man G m1cr0man :Lucas
+[2016/05/29 18:43:56.380] >> :anarchy.esper.net 354 SkyBot #MultiMC ~build-kit ns342564.ip-188-165-244.eu build-kitteh H 0 :None
+[2016/05/29 18:43:56.380] >> :anarchy.esper.net 354 SkyBot #MultiMC LordFokas 2001:19f0:6800:8161:1:be:a:7001 LordFokas|out G LordFokas :LordFokas
+[2016/05/29 18:43:56.381] >> :anarchy.esper.net 354 SkyBot #MultiMC znc 2001:1608:12:0:444:def:e5a:ed4 Orochimarufan H@ Orochimarufan :Taeyeon
+[2016/05/29 18:43:56.381] >> :anarchy.esper.net 354 SkyBot #MultiMC sid32492 2604:8300:100:200b:6667:3:0:7eec dmod H dmod :Dmod
+[2016/05/29 18:43:56.381] >> :anarchy.esper.net 315 SkyBot #MultiMC :End of /WHO list.
+[2016/05/29 18:43:56.381] >> :zsh!zsh@services.esper.net NOTICE SkyBot :[#MultiMC] Welcome! ***Please read the topic before you ask anything!***
+[2016/05/29 18:43:56.383] >> :anarchy.esper.net 367 SkyBot #MultiMC *!*@197.195.184.104 anarchy.esper.net 1456423918 
+[2016/05/29 18:43:56.383] >> :anarchy.esper.net 367 SkyBot #MultiMC *!*@151.95.193.97 anarchy.esper.net 1456423918 
+[2016/05/29 18:43:56.383] >> :anarchy.esper.net 367 SkyBot #MultiMC *!*@li523-242.members.linode.com anarchy.esper.net 1456423918 
+[2016/05/29 18:43:56.383] >> :anarchy.esper.net 367 SkyBot #MultiMC *!*@host31-54-114-19.range31-54.btcentralplus.com anarchy.esper.net 1456423918 
+[2016/05/29 18:43:56.383] >> :anarchy.esper.net 367 SkyBot #MultiMC *!~m@197.123.25.* anarchy.esper.net 1456423918 
+[2016/05/29 18:43:56.383] >> :anarchy.esper.net 367 SkyBot #MultiMC *!*.*@2601:4:4500:887:472:2ca5:aa39:1b65 anarchy.esper.net 1456423918 
+[2016/05/29 18:43:56.384] >> :anarchy.esper.net 367 SkyBot #MultiMC *!~Polaris@*.verizon.net anarchy.esper.net 1456423918 
+[2016/05/29 18:43:56.384] >> :anarchy.esper.net 367 SkyBot #MultiMC *!*webchat@*.client.mchsi.com anarchy.esper.net 1456423918 
+[2016/05/29 18:43:56.384] >> :anarchy.esper.net 367 SkyBot #MultiMC *!*@port782.ds1-od.adsl.cybercity.dk anarchy.esper.net 1456423918 
+[2016/05/29 18:43:56.384] >> :anarchy.esper.net 367 SkyBot #MultiMC *!Mibbit@168.28.136.* anarchy.esper.net 1456423918 
+[2016/05/29 18:43:56.384] >> :anarchy.esper.net 367 SkyBot #MultiMC *!~borren420@*.charter.com anarchy.esper.net 1456423918 
+[2016/05/29 18:43:56.384] >> :anarchy.esper.net 367 SkyBot #MultiMC *!*@CPE0013f7c03aa8-CM0013f7c03aa4.cpe.net.cable.rogers.com anarchy.esper.net 1456423918 
+[2016/05/29 18:43:56.384] >> :anarchy.esper.net 367 SkyBot #MultiMC *!*@c-67-170-51-233.hsd1.wa.comcast.net anarchy.esper.net 1456423918 
+[2016/05/29 18:43:56.385] >> :anarchy.esper.net 367 SkyBot #MultiMC *!Mibbit@88.240.38.110 anarchy.esper.net 1456423918 
+[2016/05/29 18:43:56.492] >> :anarchy.esper.net 367 SkyBot #MultiMC *!*@24.115.76.60.res-cmts.ovr.ptd.net anarchy.esper.net 1456423918 
+[2016/05/29 18:43:56.493] >> :anarchy.esper.net 367 SkyBot #MultiMC *!*@70.44.184.15.res-cmts.lcp.ptd.net anarchy.esper.net 1456423918 
+[2016/05/29 18:43:56.493] >> :anarchy.esper.net 368 SkyBot #MultiMC :End of Channel Ban List
+[2016/05/29 18:43:56.493] >> :anarchy.esper.net 324 SkyBot #MultiMC +Cnt 
+[2016/05/29 18:43:56.493] >> :anarchy.esper.net 329 SkyBot #MultiMC 1333487906 
+[2016/05/29 18:44:01.582] >> :RoboSky!~robotbrai@2604:a880:800:10::94a:d001 PRIVMSG #MultiMC :ok
+[2016/05/29 18:44:04.007] >> :RoboSky!~robotbrai@2604:a880:800:10::94a:d001 PRIVMSG #MultiMC :cool
+[2016/05/29 18:44:07.857] >> :CommunistWitchDr!~Communist@2602:306:cf3e:1320:70ed:2f73:1f52:5168 QUIT :Remote host closed the connection
+[2016/05/29 18:44:15.407] !! [Thread done] For #<Cinch::Handler @event=:connect pattern=#<Cinch::Pattern:0x00000002b75ac8 @prefix=nil, @pattern=//, @suffix=nil>>: #<Thread:0x00000002af6d68> -- 0 remaining.
+[2016/05/29 19:00:54.491] !! [plugin] admin: Registering executor with pattern `#<Cinch::Pattern:0x00000001ef5730 @prefix="?", @pattern=/admin\s+(.+)/, @suffix=nil>`, reacting on `message`
+[2016/05/29 19:00:54.492] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000001ef5730 @prefix="?", @pattern=/admin\s+(.+)/, @suffix=nil>`, reacting on `message`
+[2016/05/29 19:00:54.492] !! [plugin] httpserver: Registering listener for type `connect`
+[2016/05/29 19:00:54.492] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000001eda7a0 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `connect`
+[2016/05/29 19:00:54.492] !! [plugin] httpserver: Registering listener for type `disconnect`
+[2016/05/29 19:00:54.492] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000001ed9b70 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `disconnect`
+[2016/05/29 19:00:54.492] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000001ecbf20 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `connect`
+[2016/05/29 19:00:54.492] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000001ec9bd0 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `disconnect`
+[2016/05/29 19:00:54.492] II Connecting to irc.esper.net:6667
+[2016/05/29 19:00:54.685] << CAP LS 
+[2016/05/29 19:00:54.685] << NICK SkyBot 
+[2016/05/29 19:00:54.685] << USER SkyBot 0 * :SkyBot
+[2016/05/29 19:00:54.800] >> :anarchy.esper.net NOTICE * :*** Looking up your hostname...
+[2016/05/29 19:00:54.910] >> :anarchy.esper.net NOTICE * :*** Checking Ident
+[2016/05/29 19:00:54.910] >> :anarchy.esper.net NOTICE * :*** Found your hostname
+[2016/05/29 19:00:59.797] >> :anarchy.esper.net NOTICE * :*** No Ident response
+[2016/05/29 19:00:59.907] >> :anarchy.esper.net CAP * LS :account-notify away-notify extended-join multi-prefix sasl tls
+[2016/05/29 19:00:59.907] >> PING :FFFFFFFF9ED03C70
+[2016/05/29 19:00:59.908] << CAP REQ :away-notify multi-prefix sasl
+[2016/05/29 19:00:59.908] << PONG :FFFFFFFF9ED03C70
+[2016/05/29 19:01:00.027] >> :anarchy.esper.net CAP SkyBot ACK :away-notify multi-prefix sasl 
+[2016/05/29 19:01:00.027] << CAP END 
+[2016/05/29 19:01:00.287] >> :anarchy.esper.net 001 SkyBot :Welcome to the EsperNet Internet Relay Chat Network SkyBot
+[2016/05/29 19:01:00.288] >> :anarchy.esper.net 002 SkyBot :Your host is anarchy.esper.net[51.255.119.242/6667], running version charybdis-3.5.0-dev
+[2016/05/29 19:01:00.288] II Detected IRCd: charybdis
+[2016/05/29 19:01:00.288] >> :anarchy.esper.net 003 SkyBot :This server was created Tue Dec 15 2015 at 17:57:23 EST
+[2016/05/29 19:01:00.289] >> :anarchy.esper.net 004 SkyBot anarchy.esper.net charybdis-3.5.0-dev DQRSZagiloswz CFILPQTbcefgijklmnopqrstvz bkloveqjfI 
+[2016/05/29 19:01:00.289] !! [New thread] For #<Cinch::Handler @event=:connect pattern=#<Cinch::Pattern:0x00000001eda7a0 @prefix=nil, @pattern=//, @suffix=nil>>: #<Thread:0x00000001fb5cd8> -- 1 in total.
+[2016/05/29 19:01:00.290] >> :anarchy.esper.net 005 SkyBot SAFELIST ELIST=CTU CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLPQTcgimnprstz CHANLIMIT=#:50 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=EsperNet KNOCK :are supported by this server
+[2016/05/29 19:01:00.291] II Starting HTTP server on 0.0.0.0 port 1234
+[2016/05/29 19:01:00.291] !! [New thread] For #<Cinch::Handler @event=:connect pattern=#<Cinch::Pattern:0x00000001ecbf20 @prefix=nil, @pattern=//, @suffix=nil>>: #<Thread:0x00000001fb5800> -- 1 in total.
+[2016/05/29 19:01:00.291] II Detected network: espernet
+[2016/05/29 19:01:00.292] !! [timer] Starting timer <Cinch::Timer 0/1 shots, 0s interval, threaded, not started, block: #<Proc:0x00000001ed8298@/home/robotbrain/.rvm/gems/ruby-2.3.0/gems/cinch-2.3.2/lib/cinch/bot.rb:264>>
+[2016/05/29 19:01:00.292] >> :anarchy.esper.net 005 SkyBot STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 NICKLEN=30 MAXNICKLEN=30 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 :are supported by this server
+[2016/05/29 19:01:00.293] >> :anarchy.esper.net 005 SkyBot FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,acjorsxz WHOX CLIENTVER=3.0 :are supported by this server
+[2016/05/29 19:01:00.296] >> :anarchy.esper.net 251 SkyBot :There are 11 users and 7292 invisible on 14 servers
+[2016/05/29 19:01:00.296] >> :anarchy.esper.net 252 SkyBot 34 :IRC Operators online
+[2016/05/29 19:01:00.296] >> :anarchy.esper.net 253 SkyBot 1 :unknown connection(s)
+[2016/05/29 19:01:00.296] >> :anarchy.esper.net 254 SkyBot 5517 :channels formed
+[2016/05/29 19:01:00.296] >> :anarchy.esper.net 255 SkyBot :I have 1824 clients and 1 servers
+[2016/05/29 19:01:00.297] !! [Thread done] For #<Cinch::Handler @event=:connect pattern=#<Cinch::Pattern:0x00000001ecbf20 @prefix=nil, @pattern=//, @suffix=nil>>: #<Thread:0x00000001fb5800> -- 0 remaining.
+[2016/05/29 19:01:00.297] >> :anarchy.esper.net 265 SkyBot 1824 3383 :Current local users 1824, max 3383
+[2016/05/29 19:01:00.297] << JOIN #MultiMC 
+[2016/05/29 19:01:00.297] >> :anarchy.esper.net 266 SkyBot 7303 8581 :Current global users 7303, max 8581
+[2016/05/29 19:01:00.297] << JOIN #ElrosBot 
+[2016/05/29 19:01:00.297] >> :anarchy.esper.net 250 SkyBot :Highest connection count: 3384 (3383 clients) (313516 connections received)
+[2016/05/29 19:01:00.297] >> :anarchy.esper.net 375 SkyBot :- anarchy.esper.net Message of the Day - 
+[2016/05/29 19:01:00.298] >> :anarchy.esper.net 372 SkyBot :-  (  ___  )( (    /|(  ___  )(  ____ )(  ____ \|\     /||\     /|
+[2016/05/29 19:01:00.298] >> :anarchy.esper.net 372 SkyBot :-  | (   ) ||  \  ( || (   ) || (    )|| (    \/| )   ( |( \   / )
+[2016/05/29 19:01:00.298] >> :anarchy.esper.net 372 SkyBot :-  | (___) ||   \ | || (___) || (____)|| |      | (___) | \ (_) /
+[2016/05/29 19:01:00.298] >> :anarchy.esper.net 372 SkyBot :-  |  ___  || (\ \) ||  ___  ||     __)| |      |  ___  |  \   /
+[2016/05/29 19:01:00.298] >> :anarchy.esper.net 372 SkyBot :-  | (   ) || | \   || (   ) || (\ (   | |      | (   ) |   ) (
+[2016/05/29 19:01:00.298] >> :anarchy.esper.net 372 SkyBot :-  | )   ( || )  \  || )   ( || ) \ \__| (____/\| )   ( |   | |
+[2016/05/29 19:01:00.298] >> :anarchy.esper.net 372 SkyBot :-  |/     \||/    )_)|/     \||/   \__/(_______/|/     \|   \_/
+[2016/05/29 19:01:00.298] >> :anarchy.esper.net 372 SkyBot :-  
+[2016/05/29 19:01:00.298] >> :anarchy.esper.net 372 SkyBot :-                     anarchy.esper.net
+[2016/05/29 19:01:00.299] >> :anarchy.esper.net 372 SkyBot :-                     
+[2016/05/29 19:01:00.299] >> :anarchy.esper.net 372 SkyBot :-       Location: Strasbourg, France
+[2016/05/29 19:01:00.299] >> :anarchy.esper.net 372 SkyBot :-       Ports (IPv4/IPv6): 5555, 6666 .. 6669, 6697 (TLS), 7000
+[2016/05/29 19:01:00.299] >> :anarchy.esper.net 372 SkyBot :-       
+[2016/05/29 19:01:00.299] >> :anarchy.esper.net 372 SkyBot :-       Ringleader (Administrators): Steve_Restless (Steve_Restless@esper.net)
+[2016/05/29 19:01:00.299] >> :anarchy.esper.net 372 SkyBot :-       
+[2016/05/29 19:01:00.299] >> :anarchy.esper.net 372 SkyBot :-       Revolutionaries (Operators): RyanKnack (ryanknack@esper.net)
+[2016/05/29 19:01:00.299] >> :anarchy.esper.net 372 SkyBot :-  
+[2016/05/29 19:01:00.299] >> :anarchy.esper.net 372 SkyBot :-                 __.--.____________.--.__
+[2016/05/29 19:01:00.299] >> :anarchy.esper.net 372 SkyBot :-                (       _.------._       ).
+[2016/05/29 19:01:00.300] >> :anarchy.esper.net 372 SkyBot :-                 '._.--'    ||    '--._.'  )
+[2016/05/29 19:01:00.300] >> :anarchy.esper.net 372 SkyBot :-                  | |================| || (
+[2016/05/29 19:01:00.300] >> :anarchy.esper.net 372 SkyBot :-                  | ||               | ||  )
+[2016/05/29 19:01:00.300] >> :anarchy.esper.net 372 SkyBot :-                  | ||              _| || (
+[2016/05/29 19:01:00.300] >> :anarchy.esper.net 372 SkyBot :-                  | ||          _.-' | ||  )
+[2016/05/29 19:01:00.300] >> :anarchy.esper.net 372 SkyBot :-                  | ||      _.-'     | || (
+[2016/05/29 19:01:00.300] >> :anarchy.esper.net 372 SkyBot :-                  | ||  _.-'         | ||  )
+[2016/05/29 19:01:00.300] >> :anarchy.esper.net 372 SkyBot :-                  | |.-'             | || (
+[2016/05/29 19:01:00.300] >> :anarchy.esper.net 372 SkyBot :-                  | ||               | ||  )
+[2016/05/29 19:01:00.301] >> :anarchy.esper.net 372 SkyBot :-                  | ||               | || (
+[2016/05/29 19:01:00.301] >> :anarchy.esper.net 372 SkyBot :-                  | ||               | ||  )
+[2016/05/29 19:01:00.301] >> :anarchy.esper.net 372 SkyBot :-                  | ||               | || (
+[2016/05/29 19:01:00.301] >> :anarchy.esper.net 372 SkyBot :-                  | ||               | ||  )
+[2016/05/29 19:01:00.301] >> :anarchy.esper.net 372 SkyBot :-                  | ||               | || (
+[2016/05/29 19:01:00.301] >> :anarchy.esper.net 372 SkyBot :-                  | .---.            | ||  )
+[2016/05/29 19:01:00.301] >> :anarchy.esper.net 372 SkyBot :-                  | |   |            | || (
+[2016/05/29 19:01:00.301] >> :anarchy.esper.net 372 SkyBot :-                  | |   |            | ||  )
+[2016/05/29 19:01:00.301] >> :anarchy.esper.net 372 SkyBot :-                  | |  .'            | || (
+[2016/05/29 19:01:00.301] >> :anarchy.esper.net 372 SkyBot :-                  | | '              | ||  )
+[2016/05/29 19:01:00.302] >> :anarchy.esper.net 372 SkyBot :-                  | |  '.            | || (
+[2016/05/29 19:01:00.302] >> :anarchy.esper.net 372 SkyBot :-                  | |   |            | ||  )
+[2016/05/29 19:01:00.302] >> :anarchy.esper.net 372 SkyBot :-                  | |O__|  .))).     | || (
+[2016/05/29 19:01:00.302] >> :anarchy.esper.net 372 SkyBot :-                  | ||    ( O O )    | ||
+[2016/05/29 19:01:00.302] >> :anarchy.esper.net 372 SkyBot :-                  | ||===._ (_) _.===| ||
+[2016/05/29 19:01:00.302] >> :anarchy.esper.net 372 SkyBot :-                  | ||     '-.-'     | ||
+[2016/05/29 19:01:00.302] >> :anarchy.esper.net 372 SkyBot :-                  | ||      The      | ||
+[2016/05/29 19:01:00.302] >> :anarchy.esper.net 372 SkyBot :-                  | ||   Revolution  | ||
+[2016/05/29 19:01:00.302] >> :anarchy.esper.net 372 SkyBot :-                  | ||   has begun!  | ||
+[2016/05/29 19:01:00.303] >> :anarchy.esper.net 372 SkyBot :-                  | ||    ______     | ||
+[2016/05/29 19:01:00.303] >> :anarchy.esper.net 372 SkyBot :-              LGB | ||   /      \    | ||
+[2016/05/29 19:01:00.303] >> :anarchy.esper.net 372 SkyBot :-                __| ||  (\______/)   | ||_____
+[2016/05/29 19:01:00.303] >> :anarchy.esper.net 372 SkyBot :-               /__| ||___) |''| (____| ||____/
+[2016/05/29 19:01:00.303] >> :anarchy.esper.net 372 SkyBot :-              /___|_|/  (________)   |_|/___/
+[2016/05/29 19:01:00.303] >> :anarchy.esper.net 372 SkyBot :-             /_____________________________/ 
+[2016/05/29 19:01:00.303] >> :anarchy.esper.net 372 SkyBot :-  
+[2016/05/29 19:01:00.303] >> :anarchy.esper.net 372 SkyBot :-       Policies, rules, etc:
+[2016/05/29 19:01:00.303] >> :anarchy.esper.net 372 SkyBot :-         All users must follow the guidelines set forth in the Esper
+[2016/05/29 19:01:00.304] >> :anarchy.esper.net 372 SkyBot :-         network charter: http://esper.net/charter.php
+[2016/05/29 19:01:00.304] >> :anarchy.esper.net 372 SkyBot :-         Bots are permitted, but must follow the same rules as users.
+[2016/05/29 19:01:00.304] >> :anarchy.esper.net 372 SkyBot :-         \u0002Additional Bot Policy at: http://esper.net/bots.php \u0002
+[2016/05/29 19:01:00.304] >> :anarchy.esper.net 372 SkyBot :-         Fserves are strictly forbidden (XDCC, etc.)
+[2016/05/29 19:01:00.304] >> :anarchy.esper.net 372 SkyBot :-         All users must follow French and applicable international law.
+[2016/05/29 19:01:00.304] >> :anarchy.esper.net 372 SkyBot :-         Your use of this network implies consent to perform a proxy scan.
+[2016/05/29 19:01:00.304] >> :anarchy.esper.net 372 SkyBot :-         We reserve the right to remove anyone at any time for any reason.
+[2016/05/29 19:01:00.304] >> :anarchy.esper.net 372 SkyBot :-         
+[2016/05/29 19:01:00.304] >> :anarchy.esper.net 372 SkyBot :-       Channels:
+[2016/05/29 19:01:00.305] >> :anarchy.esper.net 372 SkyBot :-         \u0002#dragonweyr\u0002     - Issues requiring network staff intervention.
+[2016/05/29 19:01:00.305] >> :anarchy.esper.net 372 SkyBot :-         \u0002#help\u0002           - General IRC help.
+[2016/05/29 19:01:00.305] >> :anarchy.esper.net 372 SkyBot :-     
+[2016/05/29 19:01:00.305] >> :anarchy.esper.net 372 SkyBot :-       (Note: these names have been bolded to prevent them from being clickable
+[2016/05/29 19:01:00.305] >> :anarchy.esper.net 372 SkyBot :-              by certain browser-based clients. To join a channel, type /join name.)
+[2016/05/29 19:01:00.305] >> :anarchy.esper.net 372 SkyBot :-                                                                 
+[2016/05/29 19:01:00.397] >> :anarchy.esper.net 372 SkyBot :-        Notes:
+[2016/05/29 19:01:00.397] >> :anarchy.esper.net 372 SkyBot :-         Esper serves many communities, please be aware that not every channel
+[2016/05/29 19:01:00.397] >> :anarchy.esper.net 372 SkyBot :-           is dedicated to the particular community you've come to visit.
+[2016/05/29 19:01:00.397] >> :anarchy.esper.net 372 SkyBot :-           
+[2016/05/29 19:01:00.397] >> :anarchy.esper.net 372 SkyBot :-         New to IRC? Helpful information:
+[2016/05/29 19:01:00.397] >> :anarchy.esper.net 372 SkyBot :-           http://www.esper.net/getting_started.php
+[2016/05/29 19:01:00.397] >> :anarchy.esper.net 376 SkyBot :End of /MOTD command.
+[2016/05/29 19:01:00.398] >> :SkyBot MODE SkyBot :+i
+[2016/05/29 19:01:00.410] >> :SkyBot!~SkyBot@pool-98-115-28-71.phlapa.fios.verizon.net JOIN #MultiMC 
+[2016/05/29 19:01:00.410] << WHO #MultiMC %acfhnru 
+[2016/05/29 19:01:00.411] >> :anarchy.esper.net 332 SkyBot #MultiMC :MultiMC is a Minecraft launcher. Get it here: https://multimc.org | Post bug reports and feature requests at http://goo.gl/amrcGR | Support us on Patreon! http://www.patreon.com/multimc | See the ever growing pile of ideas: https://workflowy.com/s/2EyDMcp7CU
+[2016/05/29 19:01:00.411] << MODE #MultiMC +b 
+[2016/05/29 19:01:00.411] >> :anarchy.esper.net 333 SkyBot #MultiMC peterix!quassel@quassel.woboq.de 1458859343 
+[2016/05/29 19:01:00.411] << MODE #MultiMC 
+[2016/05/29 19:01:00.411] >> :anarchy.esper.net 353 SkyBot = #MultiMC :SkyBot CommunistWitchDr ElrosGem sneezing_panda Aedda NolanSyKinsley Nazca Saturn812 Lathanael|Away kuzetsa @carrot Zesty dustinm Slikrick DesertIce ShaRose MageRooster Lunatrius cord2 Hobbyboy taelnia surferconor425 SuPeRMiNoR2 Zerant DWKnight Ajloveslily|Sleep helinus|off zetaPRIME number5 v^ Mumfrey +Kilobyte Zeldo ashka Telshin LokiChaos frea ostPavel ljfa Kamran Jerzerak_ +jandal Doctors Ricky metathiax subzero Kaelten Mu5tank05 neersighted TacoGS
+[2016/05/29 19:01:00.520] >> :anarchy.esper.net 353 SkyBot = #MultiMC :Galaxy_2Alex Lain|log meepmeep22 gabizou gruetzkopf MattaBase Nikkii @zsh taksuyu Sephiroth RyanTheAllmighty Dark_Hunter xnrand @peterix manmaed|AFK IoP latexink Meow-J Darkwind321 Pyker SnowShock35 Cazzar Goldfish Matthew MyPictures|AFK TheNumb progwml6 flappy RX14 cat5e Synergiance WizardCM Razaekel nyuszika7h RoboSky z0ttel pjfranke useless2764 tterrag ChewCraft Algent eyamaz rolts GuntherDW Keridos|away clienthax _123DMWM @Forkk Greenphlem clever m1cr0man
+[2016/05/29 19:01:00.522] >> :anarchy.esper.net 353 SkyBot = #MultiMC :build-kitteh LordFokas|out @Orochimarufan dmod
+[2016/05/29 19:01:00.522] >> :anarchy.esper.net 366 SkyBot #MultiMC :End of /NAMES list.
+[2016/05/29 19:01:00.630] >> :SkyBot!~SkyBot@pool-98-115-28-71.phlapa.fios.verizon.net JOIN #ElrosBot 
+[2016/05/29 19:01:00.630] >> :anarchy.esper.net 353 SkyBot = #ElrosBot :SkyBot +ElrosGem @zsh @RoboSky
+[2016/05/29 19:01:00.631] << WHO #ElrosBot %acfhnru 
+[2016/05/29 19:01:00.631] >> :anarchy.esper.net 366 SkyBot #ElrosBot :End of /NAMES list.
+[2016/05/29 19:01:00.631] >> :anarchy.esper.net 354 SkyBot #MultiMC ~SkyBot pool-98-115-28-71.phlapa.fios.verizon.net SkyBot H 0 :SkyBot
+[2016/05/29 19:01:00.631] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Communist 2602:306:cf3e:1320:e079:aadb:ad61:bd2d CommunistWitchDr H 0 :Mitchell Hale
+[2016/05/29 19:01:00.632] >> :anarchy.esper.net 354 SkyBot #MultiMC ~ElrosGem 45.55.231.139 ElrosGem H ElrosGem :ElrosGem the {x|x > 9}th
+[2016/05/29 19:01:00.632] >> :anarchy.esper.net 354 SkyBot #MultiMC ~panda 2602:306:37ed:b610:d1b:217:1138:da3c sneezing_panda H sneezing_panda :realname
+[2016/05/29 19:01:00.632] >> :anarchy.esper.net 354 SkyBot #MultiMC ~aedda 2600:3c00::19:cace Aedda H Aedda :Aedda
+[2016/05/29 19:01:00.632] >> :anarchy.esper.net 354 SkyBot #MultiMC ~NolanSyKi 2606:6000:5112:df00:953f:9f1d:ae4a:5941 NolanSyKinsley H NolanSyKinsley :realname
+[2016/05/29 19:01:00.632] >> :anarchy.esper.net 354 SkyBot #MultiMC ~nazca host31-50-151-175.range31-50.btcentralplus.com Nazca H 0 :kaithar
+[2016/05/29 19:01:00.632] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Saturn812 93.170.168.24 Saturn812 G Saturn812 :Andre
+[2016/05/29 19:01:00.632] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Lathanael p54961E61.dip0.t-ipconnect.de Lathanael|Away G Lathanael :n/a
+[2016/05/29 19:01:00.633] >> :anarchy.esper.net 354 SkyBot #MultiMC znc yurizoku.tk kuzetsa H kuzetsa :Sarah White
+[2016/05/29 19:01:00.633] >> :anarchy.esper.net 354 SkyBot #MultiMC ~carrot 2a01:7e00::f03c:91ff:fe73:1488 carrot H@ drayshak :c
+[2016/05/29 19:01:00.633] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Zesty 180.97.28.12 Zesty G Zesty :Zesty
+[2016/05/29 19:01:00.633] >> :anarchy.esper.net 354 SkyBot #MultiMC ~dustinm 68.ip-149-56-14.net dustinm H 0 :dustinm
+[2016/05/29 19:01:00.633] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Slikrick9 2601:19c:4701:ff54:a559:94d6:98db:c03f Slikrick H Slikrick98 :realname
+[2016/05/29 19:01:00.633] >> :anarchy.esper.net 354 SkyBot #MultiMC ~DesertIce 98.7.1.173 DesertIce H DesertIce :realname
+[2016/05/29 19:01:00.634] >> :anarchy.esper.net 354 SkyBot #MultiMC ShaRose i.am.sharo.se ShaRose H ShaRose :ShaRose
+[2016/05/29 19:01:00.634] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Rooster c-76-22-110-2.hsd1.wa.comcast.net MageRooster H MageRooster :Rooster
+[2016/05/29 19:01:00.634] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Lunatrius 77.38.77.164 Lunatrius H Lunatrius :Jadran Kotnik
+[2016/05/29 19:01:00.634] >> :anarchy.esper.net 354 SkyBot #MultiMC ~cord2 is.aww.moe cord2 H 0 :cord2
+[2016/05/29 19:01:00.634] >> :anarchy.esper.net 354 SkyBot #MultiMC Hobbyboy hobbyboy.co.uk Hobbyboy G Hobbyboy :Andrew
+[2016/05/29 19:01:00.634] >> :anarchy.esper.net 354 SkyBot #MultiMC ~taelnia cpe-172-101-100-222.buffalo.res.rr.com taelnia H taelnia :taelnia
+[2016/05/29 19:01:00.634] >> :anarchy.esper.net 354 SkyBot #MultiMC ~surfercon 46.101.41.205 surferconor425 H surferconor425 :Conor
+[2016/05/29 19:01:00.635] >> :anarchy.esper.net 354 SkyBot #MultiMC ~SuPeR eve.superminor2.net SuPeRMiNoR2 G SuPeRMiNoR2 :super
+[2016/05/29 19:01:00.635] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Zerant 5.196.237.209 Zerant G Zerant :Zerant
+[2016/05/29 19:01:00.635] >> :anarchy.esper.net 354 SkyBot #MultiMC ~dwknight sydnns0115w-156057252002.dhcp-dynamic.FibreOp.ns.bellaliant.net DWKnight H 0 :Harold Feit
+[2016/05/29 19:01:00.635] >> :anarchy.esper.net 354 SkyBot #MultiMC Ajloveslil welcome.to.pandoras.box.panicbnc.eu Ajloveslily|Sleep G ajloveslily :Skwid
+[2016/05/29 19:01:00.635] >> :anarchy.esper.net 354 SkyBot #MultiMC ~helinus znc.helinus.se helinus|off H helinus :helinus
+[2016/05/29 19:01:00.635] >> :anarchy.esper.net 354 SkyBot #MultiMC ~zetaPRIME 209.141.57.4 zetaPRIME H zetaPRIME :zetaPRIME
+[2016/05/29 19:01:00.636] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Odovbold 128.199.254.128 number5 H number5 :Got ZNC?
+[2016/05/29 19:01:00.636] >> :anarchy.esper.net 354 SkyBot #MultiMC ~v^ c-68-41-215-101.hsd1.mi.comcast.net v^ G ping :PixelToast
+[2016/05/29 19:01:00.636] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Mumfrey dedi5.eq2.co.uk Mumfrey G Mumfrey :Mumfrey
+[2016/05/29 19:01:00.636] >> :anarchy.esper.net 354 SkyBot #MultiMC kilobyte cucumber.kilobyte22.de Kilobyte H+ Stiepen :That's me
+[2016/05/29 19:01:00.636] >> :anarchy.esper.net 354 SkyBot #MultiMC sid31320 id-31320.highgate.irccloud.com Zeldo G Zeldo :Zeldo
+[2016/05/29 19:01:00.637] >> :anarchy.esper.net 354 SkyBot #MultiMC ~postmaste 163-172-17-31.rev.poneytelecom.eu ashka G ashka :ashka
+[2016/05/29 19:01:00.637] >> :anarchy.esper.net 354 SkyBot #MultiMC sid114244 2604:8300:100:200b:6667:5:1:be44 Telshin G Telshin :Telshin
+[2016/05/29 19:01:00.637] >> :anarchy.esper.net 354 SkyBot #MultiMC ~User c-98-221-80-87.hsd1.nj.comcast.net LokiChaos H LokiChaos :User
+[2016/05/29 19:01:00.637] >> :anarchy.esper.net 354 SkyBot #MultiMC ~frea triton.blinkenshell.org frea H 0 :Frea
+[2016/05/29 19:01:00.637] >> :anarchy.esper.net 354 SkyBot #MultiMC ~ostPavel ftbwiki.org ostPavel H ostPavel :Pavel
+[2016/05/29 19:01:00.637] >> :anarchy.esper.net 354 SkyBot #MultiMC ljfa is.aww.moe ljfa G ljfa :ljfa
+[2016/05/29 19:01:00.637] >> :anarchy.esper.net 354 SkyBot #MultiMC Kamran Youre.All.Mad.PanicBNC.ca Kamran H 0 :Kamran Mackey
+[2016/05/29 19:01:00.638] >> :anarchy.esper.net 354 SkyBot #MultiMC sid60746 2604:8300:100:200b:6667:5:0:ed4a Jerzerak_ G 0 :Jerzerak
+[2016/05/29 19:01:00.638] >> :anarchy.esper.net 354 SkyBot #MultiMC ~quassel li951-76.members.linode.com jandal G+ jan :Jan Dalheimer
+[2016/05/29 19:01:00.638] >> :anarchy.esper.net 354 SkyBot #MultiMC ~doctor disconsented.com Doctors G The_Doctors_Life :Benjamin H.
+[2016/05/29 19:01:00.638] >> :anarchy.esper.net 354 SkyBot #MultiMC Ricky heyyyyyy.gurlllllll.heyyyyyyyyyyy.PanicBNC.net Ricky H Ricky :Ricky
+[2016/05/29 19:01:00.638] >> :anarchy.esper.net 354 SkyBot #MultiMC Metathiax The.Cookie.Monster.Stole.my.Coookies.PanicBNC.us metathiax H Metathiax :Metathiax
+[2016/05/29 19:01:00.638] >> :anarchy.esper.net 354 SkyBot #MultiMC ~subzero feign.dk subzero H 0 :subzero
+[2016/05/29 19:01:00.638] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Kaelten 2600:3c00::f03c:91ff:fedb:9160 Kaelten H Kaelten :Got ZNC?
+[2016/05/29 19:01:00.639] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Mu5tank05 waldo.blny.me Mu5tank05 G 0 :Nathan Blaney
+[2016/05/29 19:01:00.639] >> :anarchy.esper.net 354 SkyBot #MultiMC ~neer firebrand.neer.io neersighted G neersighted :Bjorn Neergaard
+[2016/05/29 19:01:00.639] >> :anarchy.esper.net 354 SkyBot #MultiMC ~TacoGS vhost.tacogs.com TacoGS H 0 :TacoGS
+[2016/05/29 19:01:00.639] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Alex 104.236.144.196 Galaxy_2Alex H Galaxy_2Alex :Alex
+[2016/05/29 19:01:00.639] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Aphrael baka.khobbits.co.uk Lain|log H Lain|log :Child-Goddess of the Styricum
+[2016/05/29 19:01:00.639] >> :anarchy.esper.net 354 SkyBot #MultiMC sid44664 highgate.irccloud.com meepmeep22 H meepmeep22 :Max
+[2016/05/29 19:01:00.640] >> :anarchy.esper.net 354 SkyBot #MultiMC ~gabizou irc.spongepowered.org gabizou H gabizou :Gabriel Harris-Rouquette
+[2016/05/29 19:01:00.640] >> :anarchy.esper.net 354 SkyBot #MultiMC gruetzkopf captured-elf.dont-follow-me.eu gruetzkopf H gruetzkopf :gruetzkopf
+[2016/05/29 19:01:00.640] >> :anarchy.esper.net 354 SkyBot #MultiMC ~TheMattaB mars.c4.io MattaBase H MattaBase :Matthew Girard
+[2016/05/29 19:01:00.640] >> :anarchy.esper.net 354 SkyBot #MultiMC ~nikki 37.247.49.127 Nikkii H 0 :nikki
+[2016/05/29 19:01:00.640] >> :anarchy.esper.net 354 SkyBot #MultiMC zsh services.esper.net zsh H*@ 0 :zsh: Being superior to every other shell out there
+[2016/05/29 19:01:00.640] >> :anarchy.esper.net 354 SkyBot #MultiMC ~taksuyu li206-240.members.linode.com taksuyu G taksuyu :Got ZNC?
+[2016/05/29 19:01:00.640] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Sephiroth sephiroth.ws Sephiroth H Sephiroth :Sephiroth
+[2016/05/29 19:01:00.641] >> :anarchy.esper.net 354 SkyBot #MultiMC ~RyanTheAl 104.168.164.249 RyanTheAllmighty H RyanTheAllmighty :RyanTheAllmighty
+[2016/05/29 19:01:00.641] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Dark_Hunt 2607:5300:60:19e3::1 Dark_Hunter H Dark_Hunter :LAC
+[2016/05/29 19:01:00.641] >> :anarchy.esper.net 354 SkyBot #MultiMC xnrand 0.xnrand.com xnrand H xy :xnrand
+[2016/05/29 19:01:00.641] >> :anarchy.esper.net 354 SkyBot #MultiMC quassel quassel.woboq.de peterix H@ peterix :Petr Mrazek
+[2016/05/29 19:01:00.641] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Ender bcdf031c.skybroadband.com manmaed|AFK G manmaed :manmaed
+[2016/05/29 19:01:00.641] >> :anarchy.esper.net 354 SkyBot #MultiMC jikuja irc.ioppi.info IoP H IoP :IoP
+[2016/05/29 19:01:00.641] >> :anarchy.esper.net 354 SkyBot #MultiMC ~AtomBomb sarlacc.w3.org latexink G latexink :AtomBomb
+[2016/05/29 19:01:00.641] >> :anarchy.esper.net 354 SkyBot #MultiMC uid69628 id-69628.highgate.irccloud.com Meow-J H Meow-J :Meow J
+[2016/05/29 19:01:00.642] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Darkwind3 2604:180::2b38:2010 Darkwind321 G 0 :Darkwind321
+[2016/05/29 19:01:00.643] >> :anarchy.esper.net 354 SkyBot #MultiMC pyker pyker.net Pyker H Pyker :Pyker
+[2016/05/29 19:01:00.643] >> :anarchy.esper.net 354 SkyBot #MultiMC ~SnowShock 2607:5300:100:200::17a0 SnowShock35 G SnowShock35 :Jordan
+[2016/05/29 19:01:00.643] >> :anarchy.esper.net 354 SkyBot #MultiMC ~CazzarZNC vocaloid.lovers.at.cazzar.net Cazzar G cazzar :Cazzar
+[2016/05/29 19:01:00.643] >> :anarchy.esper.net 354 SkyBot #MultiMC Goldfish Bounce.Around.The.World.PanicBNC.org Goldfish H 0 :Mike
+[2016/05/29 19:01:00.643] >> :anarchy.esper.net 354 SkyBot #MultiMC ~matthew matthewprenger.com Matthew G matthewprenger :Matthew Prenger
+[2016/05/29 19:01:00.644] >> :anarchy.esper.net 354 SkyBot #MultiMC bnc 2001:41d0:1:68a3::69 MyPictures|AFK H MyPictures :MyPictures
+[2016/05/29 19:01:00.644] >> :anarchy.esper.net 354 SkyBot #MultiMC thenumb 91.185.191.213 TheNumb G 0 :TheNumb
+[2016/05/29 19:01:00.644] >> :anarchy.esper.net 354 SkyBot #MultiMC ~progwml6 104.168.20.187 progwml6 H progwml6 :Progwml6 DVS1 ZNC
+[2016/05/29 19:01:00.644] >> :anarchy.esper.net 354 SkyBot #MultiMC ~flappy a88-113-155-120.elisa-laajakaista.fi flappy H flappy :realname
+[2016/05/29 19:01:00.644] >> :anarchy.esper.net 354 SkyBot #MultiMC ~RX14 isnt.aww.moe RX14 H rx14 :Chris Hobbs
+[2016/05/29 19:01:00.644] >> :anarchy.esper.net 354 SkyBot #MultiMC SoniEx2 189.55.64.196 cat5e H SoniEx2 :\u00034\u000F\u000304DEDIC\u000307ATED \u000308REDST\u000303ONE O\u000312VERTI\u000306CKER
+[2016/05/29 19:01:00.644] >> :anarchy.esper.net 354 SkyBot #MultiMC ~syn lsv1.synerfiles.info Synergiance H Synergiance :Synergiance
+[2016/05/29 19:01:00.644] >> :anarchy.esper.net 354 SkyBot #MultiMC ~WizardCM 2001:470:1f07:8d7:6:6:6:16 WizardCM G 0 :WizardCM
+[2016/05/29 19:01:00.644] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Per 104.236.226.72 Razaekel H Razaekal :Astra
+[2016/05/29 19:01:00.645] >> :anarchy.esper.net 354 SkyBot #MultiMC nyuszika7h cadoth.net nyuszika7h G nyuszika7h :nyuszika7h
+[2016/05/29 19:01:00.645] >> :anarchy.esper.net 354 SkyBot #MultiMC ~robotbrai 2604:a880:800:10::94a:d001 RoboSky H robotbrain :robotbrain
+[2016/05/29 19:01:00.645] >> :anarchy.esper.net 354 SkyBot #MultiMC ~ident 2a01:4f8:100:7ffe:2::2 z0ttel G 0 :Z0ttel Baer
+[2016/05/29 19:01:00.645] >> :anarchy.esper.net 354 SkyBot #MultiMC sid103612 2604:8300:100:200b:6667:4:1:94bc pjfranke G pjfranke :Peabody J Franklin
+[2016/05/29 19:01:00.645] >> :anarchy.esper.net 354 SkyBot #MultiMC useless meerkat.danmackay.com useless2764 H useless2764 :nope
+[2016/05/29 19:01:00.645] >> :anarchy.esper.net 354 SkyBot #MultiMC ~tterrag tterrag.com tterrag G tterrag :Garrett
+[2016/05/29 19:01:00.645] >> :anarchy.esper.net 354 SkyBot #MultiMC sid35940 2604:8300:100:200b:6667:2:0:8c64 ChewCraft H Chew :Chew
+[2016/05/29 19:01:00.645] >> :anarchy.esper.net 354 SkyBot #MultiMC sid23096 2604:8300:100:200b:6667:2:0:5a38 Algent G Algent :Algent
+[2016/05/29 19:01:00.646] >> :anarchy.esper.net 354 SkyBot #MultiMC sid40777 2604:8300:100:200b:6667:3:0:9f49 eyamaz H Eyamaz :eyamaz
+[2016/05/29 19:01:00.646] >> :anarchy.esper.net 354 SkyBot #MultiMC ~rolts ns504449.ip-198-100-146.net rolts G 0 :rolts
+[2016/05/29 19:01:00.646] >> :anarchy.esper.net 354 SkyBot #MultiMC ~guntherdw ks3308665.kimsufi.com GuntherDW H GuntherDW :GuntherDW
+[2016/05/29 19:01:00.646] >> :anarchy.esper.net 354 SkyBot #MultiMC ~Keridos ironhide.stw-bonn.de Keridos|away G Keridos :Got ZNC?
+[2016/05/29 19:01:00.646] >> :anarchy.esper.net 354 SkyBot #MultiMC sid14726 2604:8300:100:200b:6667:1:0:3986 clienthax G clienthax :clienthax
+[2016/05/29 19:01:00.646] >> :anarchy.esper.net 354 SkyBot #MultiMC 123DMWM omega.classicube.net _123DMWM H _123DMWM :Name: Joseph Beauvais | Skype: one23dontmesswitme
+[2016/05/29 19:01:00.646] >> :anarchy.esper.net 354 SkyBot #MultiMC ~forkk 2607:5300:60:7d5::1 Forkk G@ Forkk13 :Andrew Okin
+[2016/05/29 19:01:00.646] >> :anarchy.esper.net 354 SkyBot #MultiMC uid22276 2604:8300:100:200b:6667:4:0:5704 Greenphlem H Greenphlem :Greenphlem
+[2016/05/29 19:01:00.646] >> :anarchy.esper.net 354 SkyBot #MultiMC ~clever nwcsnbsc03w-047055226178.dhcp-dynamic.FibreOp.nb.bellaliant.net clever H 0 :michael bishop
+[2016/05/29 19:01:00.647] >> :anarchy.esper.net 354 SkyBot #MultiMC ~m1cr0man ns312254.ip-188-165-194.eu m1cr0man G m1cr0man :Lucas
+[2016/05/29 19:01:00.647] >> :anarchy.esper.net 354 SkyBot #MultiMC ~build-kit ns342564.ip-188-165-244.eu build-kitteh H 0 :None
+[2016/05/29 19:01:00.647] >> :anarchy.esper.net 354 SkyBot #MultiMC LordFokas 2001:19f0:6800:8161:1:be:a:7001 LordFokas|out G LordFokas :LordFokas
+[2016/05/29 19:01:00.647] >> :anarchy.esper.net 354 SkyBot #MultiMC znc 2001:1608:12:0:444:def:e5a:ed4 Orochimarufan H@ Orochimarufan :Taeyeon
+[2016/05/29 19:01:00.647] >> :anarchy.esper.net 354 SkyBot #MultiMC sid32492 2604:8300:100:200b:6667:3:0:7eec dmod H dmod :Dmod
+[2016/05/29 19:01:00.647] >> :anarchy.esper.net 315 SkyBot #MultiMC :End of /WHO list.
+[2016/05/29 19:01:00.647] >> :anarchy.esper.net 367 SkyBot #MultiMC *!*@197.195.184.104 anarchy.esper.net 1456423918 
+[2016/05/29 19:01:00.647] >> :anarchy.esper.net 367 SkyBot #MultiMC *!*@151.95.193.97 anarchy.esper.net 1456423918 
+[2016/05/29 19:01:00.648] >> :anarchy.esper.net 367 SkyBot #MultiMC *!*@li523-242.members.linode.com anarchy.esper.net 1456423918 
+[2016/05/29 19:01:00.648] >> :anarchy.esper.net 367 SkyBot #MultiMC *!*@host31-54-114-19.range31-54.btcentralplus.com anarchy.esper.net 1456423918 
+[2016/05/29 19:01:00.648] >> :anarchy.esper.net 367 SkyBot #MultiMC *!~m@197.123.25.* anarchy.esper.net 1456423918 
+[2016/05/29 19:01:00.648] >> :anarchy.esper.net 367 SkyBot #MultiMC *!*.*@2601:4:4500:887:472:2ca5:aa39:1b65 anarchy.esper.net 1456423918 
+[2016/05/29 19:01:00.742] >> :anarchy.esper.net 367 SkyBot #MultiMC *!~Polaris@*.verizon.net anarchy.esper.net 1456423918 
+[2016/05/29 19:01:00.742] >> :anarchy.esper.net 367 SkyBot #MultiMC *!*webchat@*.client.mchsi.com anarchy.esper.net 1456423918 
+[2016/05/29 19:01:00.743] >> :anarchy.esper.net 367 SkyBot #MultiMC *!*@port782.ds1-od.adsl.cybercity.dk anarchy.esper.net 1456423918 
+[2016/05/29 19:01:00.743] >> :anarchy.esper.net 367 SkyBot #MultiMC *!Mibbit@168.28.136.* anarchy.esper.net 1456423918 
+[2016/05/29 19:01:00.743] >> :anarchy.esper.net 367 SkyBot #MultiMC *!~borren420@*.charter.com anarchy.esper.net 1456423918 
+[2016/05/29 19:01:00.743] >> :anarchy.esper.net 367 SkyBot #MultiMC *!*@CPE0013f7c03aa8-CM0013f7c03aa4.cpe.net.cable.rogers.com anarchy.esper.net 1456423918 
+[2016/05/29 19:01:00.743] >> :anarchy.esper.net 367 SkyBot #MultiMC *!*@c-67-170-51-233.hsd1.wa.comcast.net anarchy.esper.net 1456423918 
+[2016/05/29 19:01:00.744] >> :anarchy.esper.net 367 SkyBot #MultiMC *!Mibbit@88.240.38.110 anarchy.esper.net 1456423918 
+[2016/05/29 19:01:00.744] >> :anarchy.esper.net 367 SkyBot #MultiMC *!*@24.115.76.60.res-cmts.ovr.ptd.net anarchy.esper.net 1456423918 
+[2016/05/29 19:01:00.744] >> :anarchy.esper.net 367 SkyBot #MultiMC *!*@70.44.184.15.res-cmts.lcp.ptd.net anarchy.esper.net 1456423918 
+[2016/05/29 19:01:00.744] >> :anarchy.esper.net 368 SkyBot #MultiMC :End of Channel Ban List
+[2016/05/29 19:01:00.744] >> :anarchy.esper.net 324 SkyBot #MultiMC +Cnt 
+[2016/05/29 19:01:00.744] >> :anarchy.esper.net 329 SkyBot #MultiMC 1333487906 
+[2016/05/29 19:01:00.744] >> :zsh!zsh@services.esper.net NOTICE SkyBot :[#MultiMC] Welcome! ***Please read the topic before you ask anything!***
+[2016/05/29 19:01:00.892] >> :anarchy.esper.net 354 SkyBot #ElrosBot ~SkyBot pool-98-115-28-71.phlapa.fios.verizon.net SkyBot H 0 :SkyBot
+[2016/05/29 19:01:00.892] >> :anarchy.esper.net 354 SkyBot #ElrosBot ~ElrosGem 45.55.231.139 ElrosGem H+ ElrosGem :ElrosGem the {x|x > 9}th
+[2016/05/29 19:01:00.892] >> :anarchy.esper.net 354 SkyBot #ElrosBot zsh services.esper.net zsh H*@ 0 :zsh: Being superior to every other shell out there
+[2016/05/29 19:01:00.893] >> :anarchy.esper.net 354 SkyBot #ElrosBot ~robotbrai 2604:a880:800:10::94a:d001 RoboSky H@ robotbrain :robotbrain
+[2016/05/29 19:01:00.893] >> :anarchy.esper.net 315 SkyBot #ElrosBot :End of /WHO list.
+[2016/05/29 19:01:02.631] << MODE #ElrosBot +b 
+[2016/05/29 19:01:02.742] >> :anarchy.esper.net 368 SkyBot #ElrosBot :End of Channel Ban List
+[2016/05/29 19:01:04.632] << MODE #ElrosBot 
+[2016/05/29 19:01:04.742] >> :anarchy.esper.net 324 SkyBot #ElrosBot +nt 
+[2016/05/29 19:01:04.852] >> :anarchy.esper.net 329 SkyBot #ElrosBot 1464562036 
+[2016/05/29 19:01:07.244] >> :RoboSky!~robotbrai@2604:a880:800:10::94a:d001 PRIVMSG #ElrosBot :!access add SkyBot VOP
+[2016/05/29 19:01:48.028] !! [Thread done] For #<Cinch::Handler @event=:connect pattern=#<Cinch::Pattern:0x00000001eda7a0 @prefix=nil, @pattern=//, @suffix=nil>>: #<Thread:0x00000001fb5cd8> -- 0 remaining.
+[2016/05/29 19:01:50.196] !! [plugin] admin: Registering executor with pattern `#<Cinch::Pattern:0x000000020924a8 @prefix="?", @pattern=/admin\s+(.+)/, @suffix=nil>`, reacting on `message`
+[2016/05/29 19:01:50.196] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x000000020924a8 @prefix="?", @pattern=/admin\s+(.+)/, @suffix=nil>`, reacting on `message`
+[2016/05/29 19:01:50.196] !! [plugin] httpserver: Registering listener for type `connect`
+[2016/05/29 19:01:50.196] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002077680 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `connect`
+[2016/05/29 19:01:50.196] !! [plugin] httpserver: Registering listener for type `disconnect`
+[2016/05/29 19:01:50.196] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002076960 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `disconnect`
+[2016/05/29 19:01:50.196] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x000000020750d8 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `connect`
+[2016/05/29 19:01:50.196] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x000000020748b8 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `disconnect`
+[2016/05/29 19:01:50.197] II Connecting to irc.esper.net:6667
+[2016/05/29 19:01:50.313] << CAP LS 
+[2016/05/29 19:01:50.313] << NICK SkyBot 
+[2016/05/29 19:01:50.314] << USER SkyBot 0 * :SkyBot
+[2016/05/29 19:01:50.430] >> :ipo.esper.net NOTICE * :*** Looking up your hostname...
+[2016/05/29 19:01:50.543] >> :ipo.esper.net NOTICE * :*** Checking Ident
+[2016/05/29 19:01:50.833] >> :ipo.esper.net NOTICE * :*** Found your hostname
+[2016/05/29 19:01:55.428] >> :ipo.esper.net NOTICE * :*** No Ident response
+[2016/05/29 19:01:55.540] >> :ipo.esper.net CAP * LS :account-notify away-notify extended-join multi-prefix sasl tls
+[2016/05/29 19:01:55.541] >> PING :FFFFFFFF7DE8D00E
+[2016/05/29 19:01:55.541] << CAP REQ :away-notify multi-prefix sasl
+[2016/05/29 19:01:55.541] << PONG :FFFFFFFF7DE8D00E
+[2016/05/29 19:01:55.655] >> :ipo.esper.net CAP SkyBot ACK :away-notify multi-prefix sasl 
+[2016/05/29 19:01:55.655] II [SASL] Trying to authenticate with DH-BLOWFISH
+[2016/05/29 19:01:55.656] << AUTHENTICATE DH-BLOWFISH 
+[2016/05/29 19:01:56.183] >> AUTHENTICATE ACCM3zDxWhPF5FzIO+DKDV5vE+a0uk0CfVOjjSQkGDvgQwABBQAgcmXK1p2EydVLBaIWXOS7I835N1Lo/da/PkMPxuhh0Vs= 
+[2016/05/29 19:01:56.183] << AUTHENTICATE AARIwnOVcm9ib3RicmFpbgAM7eu+F25rLw== 
+[2016/05/29 19:01:57.035] >> :ipo.esper.net 900 SkyBot SkyBot!SkyBot@pool-98-115-28-71.phlapa.fios.verizon.net robotbrain :You are now logged in as robotbrain.
+[2016/05/29 19:01:57.185] >> :ipo.esper.net 903 SkyBot :SASL authentication successful
+[2016/05/29 19:01:57.185] II [SASL] SASL authentication with DH-BLOWFISH successful
+[2016/05/29 19:01:57.185] << CAP END 
+[2016/05/29 19:01:57.520] >> :ipo.esper.net 001 SkyBot :Welcome to the EsperNet Internet Relay Chat Network SkyBot
+[2016/05/29 19:01:57.521] >> :ipo.esper.net 002 SkyBot :Your host is ipo.esper.net[80.65.57.2/6667], running version charybdis-3.5.0-dev
+[2016/05/29 19:01:57.522] II Detected IRCd: charybdis
+[2016/05/29 19:01:57.522] >> :ipo.esper.net 003 SkyBot :This server was created Sat Apr 9 2016 at 02:54:18 CEST
+[2016/05/29 19:01:57.522] >> :ipo.esper.net 004 SkyBot ipo.esper.net charybdis-3.5.0-dev DQRSZagiloswz CFILPQTbcefgijklmnopqrstvz bkloveqjfI 
+[2016/05/29 19:01:57.523] >> :ipo.esper.net 005 SkyBot SAFELIST ELIST=CTU CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLPQTcgimnprstz CHANLIMIT=#:50 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=EsperNet KNOCK :are supported by this server
+[2016/05/29 19:01:57.524] !! [New thread] For #<Cinch::Handler @event=:connect pattern=#<Cinch::Pattern:0x00000002077680 @prefix=nil, @pattern=//, @suffix=nil>>: #<Thread:0x000000021bc220> -- 1 in total.
+[2016/05/29 19:01:57.524] !! [New thread] For #<Cinch::Handler @event=:connect pattern=#<Cinch::Pattern:0x000000020750d8 @prefix=nil, @pattern=//, @suffix=nil>>: #<Thread:0x000000021afef8> -- 1 in total.
+[2016/05/29 19:01:57.524] II Detected network: espernet
+[2016/05/29 19:01:57.527] II Starting HTTP server on 0.0.0.0 port 1234
+[2016/05/29 19:01:57.527] !! [timer] Starting timer <Cinch::Timer 0/1 shots, 0s interval, threaded, not started, block: #<Proc:0x00000002075290@/home/robotbrain/.rvm/gems/ruby-2.3.0/gems/cinch-2.3.2/lib/cinch/bot.rb:264>>
+[2016/05/29 19:01:57.528] >> :ipo.esper.net 005 SkyBot STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 NICKLEN=30 MAXNICKLEN=30 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 :are supported by this server
+[2016/05/29 19:01:57.529] !! [Thread done] For #<Cinch::Handler @event=:connect pattern=#<Cinch::Pattern:0x000000020750d8 @prefix=nil, @pattern=//, @suffix=nil>>: #<Thread:0x000000021afef8> -- 0 remaining.
+[2016/05/29 19:01:57.529] >> :ipo.esper.net 005 SkyBot FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,acjorsxz WHOX CLIENTVER=3.0 :are supported by this server
+[2016/05/29 19:01:57.529] >> :ipo.esper.net 251 SkyBot :There are 11 users and 7295 invisible on 14 servers
+[2016/05/29 19:01:57.529] >> :ipo.esper.net 252 SkyBot 34 :IRC Operators online
+[2016/05/29 19:01:57.530] >> :ipo.esper.net 253 SkyBot 2 :unknown connection(s)
+[2016/05/29 19:01:57.530] >> :ipo.esper.net 254 SkyBot 5518 :channels formed
+[2016/05/29 19:01:57.530] >> :ipo.esper.net 255 SkyBot :I have 1448 clients and 1 servers
+[2016/05/29 19:01:57.530] >> :ipo.esper.net 265 SkyBot 1448 1881 :Current local users 1448, max 1881
+[2016/05/29 19:01:57.531] >> :ipo.esper.net 266 SkyBot 7306 8128 :Current global users 7306, max 8128
+[2016/05/29 19:01:57.531] >> :ipo.esper.net 250 SkyBot :Highest connection count: 1882 (1881 clients) (150718 connections received)
+[2016/05/29 19:01:57.531] >> :ipo.esper.net 375 SkyBot :- ipo.esper.net Message of the Day - 
+[2016/05/29 19:01:57.531] >> :ipo.esper.net 372 SkyBot :-  
+[2016/05/29 19:01:57.531] >> :ipo.esper.net 372 SkyBot :-    lMMMMMMMMMM,
+[2016/05/29 19:01:57.531] >> :ipo.esper.net 372 SkyBot :- ...lXXXXXXNMMM,
+[2016/05/29 19:01:57.531] >> :ipo.esper.net 372 SkyBot :- MMMl      ,MMM,
+[2016/05/29 19:01:57.532] >> :ipo.esper.net 372 SkyBot :- MMMl      ;MMM,
+[2016/05/29 19:01:57.532] >> :ipo.esper.net 372 SkyBot :- MMMl     oWMWd.  lk00kc o0kkkkk0o         .KOkkkkOK'.KO,   'K' ox     ,0d   .dO,
+[2016/05/29 19:01:57.532] >> :ipo.esper.net 372 SkyBot :- MMMl   :KMMO.      Ok   kO     Ok         'Ml    ,M,.M0KO, ,M, k0      .OK;,KO'
+[2016/05/29 19:01:57.532] << JOIN #MultiMC 
+[2016/05/29 19:01:57.532] >> :ipo.esper.net 372 SkyBot :- MMMl ;0MMO'        Ok   kNddddd0d .ddddd; 'Ml    ,M,.Ml ;OOkM, kO        ;NX;
+[2016/05/29 19:01:57.532] << JOIN #ElrosBot 
+[2016/05/29 19:01:57.533] >> :ipo.esper.net 372 SkyBot :- KKKx0MMO,        lk00kc ox                .KOkkkkOK'.K:   'kK' o0kkkkkkc  xo
+[2016/05/29 19:01:57.533] >> :ipo.esper.net 372 SkyBot :-    lMM0
+[2016/05/29 19:01:57.533] >> :ipo.esper.net 372 SkyBot :-    lMMk                          \u0002ipo.esper.net\u0002
+[2016/05/29 19:01:57.533] >> :ipo.esper.net 372 SkyBot :-                 (the server formerly known as availo.esper.net)
+[2016/05/29 19:01:57.533] >> :ipo.esper.net 372 SkyBot :-  
+[2016/05/29 19:01:57.533] >> :ipo.esper.net 372 SkyBot :-                                               \u0002Not an admin\u0002:       brynjar
+[2016/05/29 19:01:57.533] >> :ipo.esper.net 372 SkyBot :-  
+[2016/05/29 19:01:57.533] >> :ipo.esper.net 372 SkyBot :-                                           0 helper donkeys at the moment
+[2016/05/29 19:01:57.534] >> :ipo.esper.net 372 SkyBot :-  
+[2016/05/29 19:01:57.534] >> :ipo.esper.net 372 SkyBot :-  
+[2016/05/29 19:01:57.534] >> :ipo.esper.net 372 SkyBot :-         This server is listening on ports \u00025555\u0002, \u00026667-9\u0002 and \u00027000\u0002
+[2016/05/29 19:01:57.534] >> :ipo.esper.net 372 SkyBot :-        \u0002SSL-connections\u0002 are recommended, and welcome on port \u00026697\u0002
+[2016/05/29 19:01:57.534] >> :ipo.esper.net 372 SkyBot :-  
+[2016/05/29 19:01:57.534] >> :ipo.esper.net 372 SkyBot :-  
+[2016/05/29 19:01:57.534] >> :ipo.esper.net 372 SkyBot :-                                                      \u0002* TERMS OF SERVICE *\u0002
+[2016/05/29 19:01:57.534] >> :ipo.esper.net 372 SkyBot :-   Your use of this network constitutes an agreement to abide by the
+[2016/05/29 19:01:57.534] >> :ipo.esper.net 372 SkyBot :-   rules presented in the EsperNet AUP - http://esper.net/charter.php
+[2016/05/29 19:01:57.535] >> :ipo.esper.net 372 SkyBot :-   as well as any applicable Norwegian and International laws.
+[2016/05/29 19:01:57.535] >> :ipo.esper.net 372 SkyBot :-   
+[2016/05/29 19:01:57.535] >> :ipo.esper.net 372 SkyBot :-   Further, your use of this network implies consent to a port scan
+[2016/05/29 19:01:57.535] >> :ipo.esper.net 372 SkyBot :-   to detect open proxies and otherwise compromised systems.
+[2016/05/29 19:01:57.535] >> :ipo.esper.net 372 SkyBot :-   
+[2016/05/29 19:01:57.535] >> :ipo.esper.net 372 SkyBot :-   Properly configured bots are permitted, but are required to follow
+[2016/05/29 19:01:57.535] >> :ipo.esper.net 372 SkyBot :-   the same rules as users. Please refer to http://esper.net/bots.php
+[2016/05/29 19:01:57.535] >> :ipo.esper.net 372 SkyBot :-   for more information about configuration requirements and suggestions.
+[2016/05/29 19:01:57.536] >> :ipo.esper.net 372 SkyBot :-   
+[2016/05/29 19:01:57.536] >> :ipo.esper.net 372 SkyBot :-   
+[2016/05/29 19:01:57.536] >> :ipo.esper.net 372 SkyBot :-                                                       \u0002* USEFUL CHANNELS *\u0002
+[2016/05/29 19:01:57.536] >> :ipo.esper.net 372 SkyBot :-   #dragonweyr - Network staff assistance
+[2016/05/29 19:01:57.536] >> :ipo.esper.net 372 SkyBot :-   #coders     - Help with programming|tr gm cs|sed 's/s\(in\)c/t\1ation/'
+[2016/05/29 19:01:57.536] >> :ipo.esper.net 372 SkyBot :-   #lobby      - Chat
+[2016/05/29 19:01:57.635] >> :ipo.esper.net 372 SkyBot :-   #help       - General IRC help
+[2016/05/29 19:01:57.635] >> :ipo.esper.net 372 SkyBot :-   
+[2016/05/29 19:01:57.635] >> :ipo.esper.net 372 SkyBot :-   
+[2016/05/29 19:01:57.635] >> :ipo.esper.net 372 SkyBot :-                                                    \u0002* SPONSORING COMPANY *\u0002
+[2016/05/29 19:01:57.636] >> :ipo.esper.net 372 SkyBot :-   This server is sponsored by donkeys and IP-Only:
+[2016/05/29 19:01:57.636] >> :ipo.esper.net 372 SkyBot :-   http://www.ip-only.se/
+[2016/05/29 19:01:57.636] >> :ipo.esper.net 372 SkyBot :-   
+[2016/05/29 19:01:57.636] >> :ipo.esper.net 372 SkyBot :-                                                \u0002* REALLY OLD THEME SONGS *\u0002
+[2016/05/29 19:01:57.636] >> :ipo.esper.net 372 SkyBot :-   Theme song #1:       http://kaffekoker.net/mp3/availo_01.mp3
+[2016/05/29 19:01:57.636] >> :ipo.esper.net 372 SkyBot :-   Theme song #2:       http://kaffekoker.net/mp3/availo_02.mp3
+[2016/05/29 19:01:57.636] >> :ipo.esper.net 372 SkyBot :-   Not a theme song #1: http://kaffekoker.net/mp3/blip-hop.mp3
+[2016/05/29 19:01:57.636] >> :ipo.esper.net 372 SkyBot :-   
+[2016/05/29 19:01:57.636] >> :ipo.esper.net 372 SkyBot :-   Feel free to poke 'brynjar' if you are awesome and would like to
+[2016/05/29 19:01:57.637] >> :ipo.esper.net 372 SkyBot :-   donate a chiptune you have composed. EsperNet will love you for it!
+[2016/05/29 19:01:57.637] >> :ipo.esper.net 372 SkyBot :-   
+[2016/05/29 19:01:57.637] >> :ipo.esper.net 376 SkyBot :End of /MOTD command.
+[2016/05/29 19:01:57.637] >> :SkyBot MODE SkyBot :+i
+[2016/05/29 19:01:57.648] >> :SkyBot!~SkyBot@pool-98-115-28-71.phlapa.fios.verizon.net JOIN #MultiMC 
+[2016/05/29 19:01:57.649] << WHO #MultiMC %acfhnru 
+[2016/05/29 19:01:57.649] << MODE #MultiMC +b 
+[2016/05/29 19:01:57.649] << MODE #MultiMC 
+[2016/05/29 19:01:57.649] >> :ipo.esper.net 332 SkyBot #MultiMC :MultiMC is a Minecraft launcher. Get it here: https://multimc.org | Post bug reports and feature requests at http://goo.gl/amrcGR | Support us on Patreon! http://www.patreon.com/multimc | See the ever growing pile of ideas: https://workflowy.com/s/2EyDMcp7CU
+[2016/05/29 19:01:57.649] >> :ipo.esper.net 333 SkyBot #MultiMC peterix!quassel@quassel.woboq.de 1458859343 
+[2016/05/29 19:01:57.649] >> :ipo.esper.net 353 SkyBot = #MultiMC :SkyBot CommunistWitchDr ElrosGem sneezing_panda Aedda NolanSyKinsley Nazca Saturn812 Lathanael|Away kuzetsa @carrot Zesty dustinm Slikrick DesertIce ShaRose MageRooster Lunatrius cord2 Hobbyboy taelnia surferconor425 SuPeRMiNoR2 Zerant DWKnight Ajloveslily|Sleep helinus|off zetaPRIME number5 ljfa Kamran Jerzerak_ +jandal Doctors Ricky metathiax subzero Kaelten Mu5tank05 neersighted TacoGS Galaxy_2Alex Lain|log meepmeep22 gabizou gruetzkopf MattaBase Nikkii @zsh
+[2016/05/29 19:01:57.759] >> :ipo.esper.net 353 SkyBot = #MultiMC :taksuyu Sephiroth RyanTheAllmighty Dark_Hunter xnrand @peterix manmaed|AFK IoP latexink Meow-J Darkwind321 Pyker SnowShock35 Cazzar Goldfish Matthew MyPictures|AFK TheNumb progwml6 flappy RX14 cat5e Synergiance WizardCM Razaekel nyuszika7h RoboSky z0ttel pjfranke useless2764 tterrag ChewCraft Algent eyamaz rolts GuntherDW Keridos|away clienthax _123DMWM @Forkk Greenphlem clever m1cr0man build-kitteh LordFokas|out @Orochimarufan dmod ostPavel frea LokiChaos
+[2016/05/29 19:01:57.761] >> :ipo.esper.net 353 SkyBot = #MultiMC :Telshin ashka Zeldo +Kilobyte Mumfrey v^
+[2016/05/29 19:01:57.761] >> :ipo.esper.net 366 SkyBot #MultiMC :End of /NAMES list.
+[2016/05/29 19:01:57.873] >> :SkyBot!~SkyBot@pool-98-115-28-71.phlapa.fios.verizon.net JOIN #ElrosBot 
+[2016/05/29 19:01:57.873] >> :ipo.esper.net 353 SkyBot = #ElrosBot :SkyBot +ElrosGem @zsh @RoboSky
+[2016/05/29 19:01:57.874] >> :ipo.esper.net 366 SkyBot #ElrosBot :End of /NAMES list.
+[2016/05/29 19:01:57.875] >> :ipo.esper.net 354 SkyBot #MultiMC ~SkyBot pool-98-115-28-71.phlapa.fios.verizon.net SkyBot H robotbrain :SkyBot
+[2016/05/29 19:01:57.875] >> :ipo.esper.net 354 SkyBot #MultiMC ~Communist 2602:306:cf3e:1320:e079:aadb:ad61:bd2d CommunistWitchDr H 0 :Mitchell Hale
+[2016/05/29 19:01:57.876] >> :ipo.esper.net 354 SkyBot #MultiMC ~ElrosGem 45.55.231.139 ElrosGem H ElrosGem :ElrosGem the {x|x > 9}th
+[2016/05/29 19:01:57.876] >> :ipo.esper.net 354 SkyBot #MultiMC ~panda 2602:306:37ed:b610:d1b:217:1138:da3c sneezing_panda H sneezing_panda :realname
+[2016/05/29 19:01:57.876] >> :ipo.esper.net 354 SkyBot #MultiMC ~aedda 2600:3c00::19:cace Aedda H Aedda :Aedda
+[2016/05/29 19:01:57.876] >> :ipo.esper.net 354 SkyBot #MultiMC ~NolanSyKi 2606:6000:5112:df00:953f:9f1d:ae4a:5941 NolanSyKinsley H NolanSyKinsley :realname
+[2016/05/29 19:01:57.876] >> :ipo.esper.net 354 SkyBot #MultiMC ~nazca host31-50-151-175.range31-50.btcentralplus.com Nazca H 0 :kaithar
+[2016/05/29 19:01:57.876] >> :ipo.esper.net 354 SkyBot #MultiMC ~Saturn812 93.170.168.24 Saturn812 G Saturn812 :Andre
+[2016/05/29 19:01:57.876] >> :ipo.esper.net 354 SkyBot #MultiMC ~Lathanael p54961E61.dip0.t-ipconnect.de Lathanael|Away G Lathanael :n/a
+[2016/05/29 19:01:57.876] >> :ipo.esper.net 354 SkyBot #MultiMC znc yurizoku.tk kuzetsa H kuzetsa :Sarah White
+[2016/05/29 19:01:57.877] >> :ipo.esper.net 354 SkyBot #MultiMC ~carrot 2a01:7e00::f03c:91ff:fe73:1488 carrot H@ drayshak :c
+[2016/05/29 19:01:57.877] >> :ipo.esper.net 354 SkyBot #MultiMC ~Zesty 180.97.28.12 Zesty G Zesty :Zesty
+[2016/05/29 19:01:57.877] >> :ipo.esper.net 354 SkyBot #MultiMC ~dustinm 68.ip-149-56-14.net dustinm H 0 :dustinm
+[2016/05/29 19:01:57.877] >> :ipo.esper.net 354 SkyBot #MultiMC ~Slikrick9 2601:19c:4701:ff54:a559:94d6:98db:c03f Slikrick H Slikrick98 :realname
+[2016/05/29 19:01:57.877] >> :ipo.esper.net 354 SkyBot #MultiMC ~DesertIce 98.7.1.173 DesertIce H DesertIce :realname
+[2016/05/29 19:01:57.878] >> :ipo.esper.net 354 SkyBot #MultiMC ShaRose i.am.sharo.se ShaRose H ShaRose :ShaRose
+[2016/05/29 19:01:57.878] >> :ipo.esper.net 354 SkyBot #MultiMC ~Rooster c-76-22-110-2.hsd1.wa.comcast.net MageRooster H MageRooster :Rooster
+[2016/05/29 19:01:57.878] >> :ipo.esper.net 354 SkyBot #MultiMC ~Lunatrius 77.38.77.164 Lunatrius H Lunatrius :Jadran Kotnik
+[2016/05/29 19:01:57.878] >> :ipo.esper.net 354 SkyBot #MultiMC ~cord2 is.aww.moe cord2 H 0 :cord2
+[2016/05/29 19:01:57.878] >> :ipo.esper.net 354 SkyBot #MultiMC Hobbyboy hobbyboy.co.uk Hobbyboy G Hobbyboy :Andrew
+[2016/05/29 19:01:57.878] >> :ipo.esper.net 354 SkyBot #MultiMC ~taelnia cpe-172-101-100-222.buffalo.res.rr.com taelnia H taelnia :taelnia
+[2016/05/29 19:01:57.878] >> :ipo.esper.net 354 SkyBot #MultiMC ~surfercon 46.101.41.205 surferconor425 H surferconor425 :Conor
+[2016/05/29 19:01:57.879] >> :ipo.esper.net 354 SkyBot #MultiMC ~SuPeR eve.superminor2.net SuPeRMiNoR2 G SuPeRMiNoR2 :super
+[2016/05/29 19:01:57.879] >> :ipo.esper.net 354 SkyBot #MultiMC ~Zerant 5.196.237.209 Zerant G Zerant :Zerant
+[2016/05/29 19:01:57.879] >> :ipo.esper.net 354 SkyBot #MultiMC ~dwknight sydnns0115w-156057252002.dhcp-dynamic.FibreOp.ns.bellaliant.net DWKnight H 0 :Harold Feit
+[2016/05/29 19:01:57.879] >> :ipo.esper.net 354 SkyBot #MultiMC Ajloveslil welcome.to.pandoras.box.panicbnc.eu Ajloveslily|Sleep G ajloveslily :Skwid
+[2016/05/29 19:01:57.879] >> :ipo.esper.net 354 SkyBot #MultiMC ~helinus znc.helinus.se helinus|off H helinus :helinus
+[2016/05/29 19:01:57.879] >> :ipo.esper.net 354 SkyBot #MultiMC ~zetaPRIME 209.141.57.4 zetaPRIME H zetaPRIME :zetaPRIME
+[2016/05/29 19:01:57.879] >> :ipo.esper.net 354 SkyBot #MultiMC ~Odovbold 128.199.254.128 number5 H number5 :Got ZNC?
+[2016/05/29 19:01:57.879] >> :ipo.esper.net 354 SkyBot #MultiMC ljfa is.aww.moe ljfa G ljfa :ljfa
+[2016/05/29 19:01:57.880] >> :ipo.esper.net 354 SkyBot #MultiMC Kamran Youre.All.Mad.PanicBNC.ca Kamran H 0 :Kamran Mackey
+[2016/05/29 19:01:57.880] >> :ipo.esper.net 354 SkyBot #MultiMC sid60746 2604:8300:100:200b:6667:5:0:ed4a Jerzerak_ G 0 :Jerzerak
+[2016/05/29 19:01:57.880] >> :ipo.esper.net 354 SkyBot #MultiMC ~quassel li951-76.members.linode.com jandal G+ jan :Jan Dalheimer
+[2016/05/29 19:01:57.880] >> :ipo.esper.net 354 SkyBot #MultiMC ~doctor disconsented.com Doctors G The_Doctors_Life :Benjamin H.
+[2016/05/29 19:01:57.880] >> :ipo.esper.net 354 SkyBot #MultiMC Ricky heyyyyyy.gurlllllll.heyyyyyyyyyyy.PanicBNC.net Ricky H Ricky :Ricky
+[2016/05/29 19:01:57.880] >> :ipo.esper.net 354 SkyBot #MultiMC Metathiax The.Cookie.Monster.Stole.my.Coookies.PanicBNC.us metathiax H Metathiax :Metathiax
+[2016/05/29 19:01:57.880] >> :ipo.esper.net 354 SkyBot #MultiMC ~subzero feign.dk subzero H 0 :subzero
+[2016/05/29 19:01:57.881] >> :ipo.esper.net 354 SkyBot #MultiMC ~Kaelten 2600:3c00::f03c:91ff:fedb:9160 Kaelten H Kaelten :Got ZNC?
+[2016/05/29 19:01:57.881] >> :ipo.esper.net 354 SkyBot #MultiMC ~Mu5tank05 waldo.blny.me Mu5tank05 G 0 :Nathan Blaney
+[2016/05/29 19:01:57.881] >> :ipo.esper.net 354 SkyBot #MultiMC ~neer firebrand.neer.io neersighted G neersighted :Bjorn Neergaard
+[2016/05/29 19:01:57.881] >> :ipo.esper.net 354 SkyBot #MultiMC ~TacoGS vhost.tacogs.com TacoGS H 0 :TacoGS
+[2016/05/29 19:01:57.881] >> :ipo.esper.net 354 SkyBot #MultiMC ~Alex 104.236.144.196 Galaxy_2Alex H Galaxy_2Alex :Alex
+[2016/05/29 19:01:57.881] >> :ipo.esper.net 354 SkyBot #MultiMC ~Aphrael baka.khobbits.co.uk Lain|log H Lain|log :Child-Goddess of the Styricum
+[2016/05/29 19:01:57.881] >> :ipo.esper.net 354 SkyBot #MultiMC sid44664 highgate.irccloud.com meepmeep22 H meepmeep22 :Max
+[2016/05/29 19:01:57.881] >> :ipo.esper.net 354 SkyBot #MultiMC ~gabizou irc.spongepowered.org gabizou H gabizou :Gabriel Harris-Rouquette
+[2016/05/29 19:01:57.882] >> :ipo.esper.net 354 SkyBot #MultiMC gruetzkopf captured-elf.dont-follow-me.eu gruetzkopf H gruetzkopf :gruetzkopf
+[2016/05/29 19:01:57.882] >> :ipo.esper.net 354 SkyBot #MultiMC ~TheMattaB mars.c4.io MattaBase H MattaBase :Matthew Girard
+[2016/05/29 19:01:57.882] >> :ipo.esper.net 354 SkyBot #MultiMC ~nikki 37.247.49.127 Nikkii H 0 :nikki
+[2016/05/29 19:01:57.882] >> :ipo.esper.net 354 SkyBot #MultiMC zsh services.esper.net zsh H*@ 0 :zsh: Being superior to every other shell out there
+[2016/05/29 19:01:57.882] >> :ipo.esper.net 354 SkyBot #MultiMC ~taksuyu li206-240.members.linode.com taksuyu G taksuyu :Got ZNC?
+[2016/05/29 19:01:57.883] >> :ipo.esper.net 354 SkyBot #MultiMC ~Sephiroth sephiroth.ws Sephiroth H Sephiroth :Sephiroth
+[2016/05/29 19:01:57.883] >> :ipo.esper.net 354 SkyBot #MultiMC ~RyanTheAl 104.168.164.249 RyanTheAllmighty H RyanTheAllmighty :RyanTheAllmighty
+[2016/05/29 19:01:57.883] >> :ipo.esper.net 354 SkyBot #MultiMC ~Dark_Hunt 2607:5300:60:19e3::1 Dark_Hunter H Dark_Hunter :LAC
+[2016/05/29 19:01:57.883] >> :ipo.esper.net 354 SkyBot #MultiMC xnrand 0.xnrand.com xnrand H xy :xnrand
+[2016/05/29 19:01:57.883] >> :ipo.esper.net 354 SkyBot #MultiMC quassel quassel.woboq.de peterix H@ peterix :Petr Mrazek
+[2016/05/29 19:01:57.883] >> :ipo.esper.net 354 SkyBot #MultiMC ~Ender bcdf031c.skybroadband.com manmaed|AFK G manmaed :manmaed
+[2016/05/29 19:01:57.884] >> :ipo.esper.net 354 SkyBot #MultiMC jikuja irc.ioppi.info IoP H IoP :IoP
+[2016/05/29 19:01:57.884] >> :ipo.esper.net 354 SkyBot #MultiMC ~AtomBomb sarlacc.w3.org latexink G latexink :AtomBomb
+[2016/05/29 19:01:57.884] >> :ipo.esper.net 354 SkyBot #MultiMC uid69628 id-69628.highgate.irccloud.com Meow-J H Meow-J :Meow J
+[2016/05/29 19:01:57.884] >> :ipo.esper.net 354 SkyBot #MultiMC ~Darkwind3 2604:180::2b38:2010 Darkwind321 G 0 :Darkwind321
+[2016/05/29 19:01:57.884] >> :ipo.esper.net 354 SkyBot #MultiMC pyker pyker.net Pyker H Pyker :Pyker
+[2016/05/29 19:01:57.884] >> :ipo.esper.net 354 SkyBot #MultiMC ~SnowShock 2607:5300:100:200::17a0 SnowShock35 G SnowShock35 :Jordan
+[2016/05/29 19:01:57.884] >> :ipo.esper.net 354 SkyBot #MultiMC ~CazzarZNC vocaloid.lovers.at.cazzar.net Cazzar G cazzar :Cazzar
+[2016/05/29 19:01:57.885] >> :ipo.esper.net 354 SkyBot #MultiMC Goldfish Bounce.Around.The.World.PanicBNC.org Goldfish H 0 :Mike
+[2016/05/29 19:01:57.885] >> :ipo.esper.net 354 SkyBot #MultiMC ~matthew matthewprenger.com Matthew G matthewprenger :Matthew Prenger
+[2016/05/29 19:01:57.885] >> :ipo.esper.net 354 SkyBot #MultiMC bnc 2001:41d0:1:68a3::69 MyPictures|AFK H MyPictures :MyPictures
+[2016/05/29 19:01:57.885] >> :ipo.esper.net 354 SkyBot #MultiMC thenumb 91.185.191.213 TheNumb G 0 :TheNumb
+[2016/05/29 19:01:57.885] >> :ipo.esper.net 354 SkyBot #MultiMC ~progwml6 104.168.20.187 progwml6 H progwml6 :Progwml6 DVS1 ZNC
+[2016/05/29 19:01:57.885] >> :ipo.esper.net 354 SkyBot #MultiMC ~flappy a88-113-155-120.elisa-laajakaista.fi flappy H flappy :realname
+[2016/05/29 19:01:57.885] >> :ipo.esper.net 354 SkyBot #MultiMC ~RX14 isnt.aww.moe RX14 H rx14 :Chris Hobbs
+[2016/05/29 19:01:57.886] >> :ipo.esper.net 354 SkyBot #MultiMC SoniEx2 189.55.64.196 cat5e H SoniEx2 :\u00034\u000F\u000304DEDIC\u000307ATED \u000308REDST\u000303ONE O\u000312VERTI\u000306CKER
+[2016/05/29 19:01:57.886] >> :ipo.esper.net 354 SkyBot #MultiMC ~syn lsv1.synerfiles.info Synergiance H Synergiance :Synergiance
+[2016/05/29 19:01:57.886] >> :ipo.esper.net 354 SkyBot #MultiMC ~WizardCM 2001:470:1f07:8d7:6:6:6:16 WizardCM G 0 :WizardCM
+[2016/05/29 19:01:57.886] >> :ipo.esper.net 354 SkyBot #MultiMC ~Per 104.236.226.72 Razaekel H Razaekal :Astra
+[2016/05/29 19:01:57.886] >> :ipo.esper.net 354 SkyBot #MultiMC nyuszika7h cadoth.net nyuszika7h G nyuszika7h :nyuszika7h
+[2016/05/29 19:01:57.886] >> :ipo.esper.net 354 SkyBot #MultiMC ~robotbrai 2604:a880:800:10::94a:d001 RoboSky H robotbrain :robotbrain
+[2016/05/29 19:01:57.886] >> :ipo.esper.net 354 SkyBot #MultiMC ~ident 2a01:4f8:100:7ffe:2::2 z0ttel G 0 :Z0ttel Baer
+[2016/05/29 19:01:57.887] >> :ipo.esper.net 354 SkyBot #MultiMC sid103612 2604:8300:100:200b:6667:4:1:94bc pjfranke G pjfranke :Peabody J Franklin
+[2016/05/29 19:01:57.887] >> :ipo.esper.net 354 SkyBot #MultiMC useless meerkat.danmackay.com useless2764 H useless2764 :nope
+[2016/05/29 19:01:57.887] >> :ipo.esper.net 354 SkyBot #MultiMC ~tterrag tterrag.com tterrag G tterrag :Garrett
+[2016/05/29 19:01:57.887] >> :ipo.esper.net 354 SkyBot #MultiMC sid35940 2604:8300:100:200b:6667:2:0:8c64 ChewCraft H Chew :Chew
+[2016/05/29 19:01:57.887] >> :ipo.esper.net 354 SkyBot #MultiMC sid23096 2604:8300:100:200b:6667:2:0:5a38 Algent G Algent :Algent
+[2016/05/29 19:01:57.887] >> :ipo.esper.net 354 SkyBot #MultiMC sid40777 2604:8300:100:200b:6667:3:0:9f49 eyamaz H Eyamaz :eyamaz
+[2016/05/29 19:01:57.888] >> :ipo.esper.net 354 SkyBot #MultiMC ~rolts ns504449.ip-198-100-146.net rolts G 0 :rolts
+[2016/05/29 19:01:57.889] >> :ipo.esper.net 354 SkyBot #MultiMC ~guntherdw ks3308665.kimsufi.com GuntherDW H GuntherDW :GuntherDW
+[2016/05/29 19:01:57.889] >> :ipo.esper.net 354 SkyBot #MultiMC ~Keridos ironhide.stw-bonn.de Keridos|away G Keridos :Got ZNC?
+[2016/05/29 19:01:57.889] >> :ipo.esper.net 354 SkyBot #MultiMC sid14726 2604:8300:100:200b:6667:1:0:3986 clienthax G clienthax :clienthax
+[2016/05/29 19:01:57.889] >> :ipo.esper.net 354 SkyBot #MultiMC 123DMWM omega.classicube.net _123DMWM H _123DMWM :Name: Joseph Beauvais | Skype: one23dontmesswitme
+[2016/05/29 19:01:57.889] >> :ipo.esper.net 354 SkyBot #MultiMC ~forkk 2607:5300:60:7d5::1 Forkk G@ Forkk13 :Andrew Okin
+[2016/05/29 19:01:57.889] >> :ipo.esper.net 354 SkyBot #MultiMC uid22276 2604:8300:100:200b:6667:4:0:5704 Greenphlem H Greenphlem :Greenphlem
+[2016/05/29 19:01:57.889] >> :ipo.esper.net 354 SkyBot #MultiMC ~clever nwcsnbsc03w-047055226178.dhcp-dynamic.FibreOp.nb.bellaliant.net clever H 0 :michael bishop
+[2016/05/29 19:01:57.889] >> :ipo.esper.net 354 SkyBot #MultiMC ~m1cr0man ns312254.ip-188-165-194.eu m1cr0man G m1cr0man :Lucas
+[2016/05/29 19:01:57.890] >> :ipo.esper.net 354 SkyBot #MultiMC ~build-kit ns342564.ip-188-165-244.eu build-kitteh H 0 :None
+[2016/05/29 19:01:57.890] >> :ipo.esper.net 354 SkyBot #MultiMC LordFokas 2001:19f0:6800:8161:1:be:a:7001 LordFokas|out G LordFokas :LordFokas
+[2016/05/29 19:01:57.890] >> :ipo.esper.net 354 SkyBot #MultiMC znc 2001:1608:12:0:444:def:e5a:ed4 Orochimarufan H@ Orochimarufan :Taeyeon
+[2016/05/29 19:01:57.890] >> :ipo.esper.net 354 SkyBot #MultiMC sid32492 2604:8300:100:200b:6667:3:0:7eec dmod H dmod :Dmod
+[2016/05/29 19:01:57.890] >> :ipo.esper.net 354 SkyBot #MultiMC ~ostPavel ftbwiki.org ostPavel H ostPavel :Pavel
+[2016/05/29 19:01:57.890] >> :ipo.esper.net 354 SkyBot #MultiMC ~frea triton.blinkenshell.org frea H 0 :Frea
+[2016/05/29 19:01:57.890] >> :ipo.esper.net 354 SkyBot #MultiMC ~User c-98-221-80-87.hsd1.nj.comcast.net LokiChaos H LokiChaos :User
+[2016/05/29 19:01:57.891] >> :ipo.esper.net 354 SkyBot #MultiMC sid114244 2604:8300:100:200b:6667:5:1:be44 Telshin G Telshin :Telshin
+[2016/05/29 19:01:57.891] >> :ipo.esper.net 354 SkyBot #MultiMC ~postmaste 163-172-17-31.rev.poneytelecom.eu ashka G ashka :ashka
+[2016/05/29 19:01:57.891] >> :ipo.esper.net 354 SkyBot #MultiMC sid31320 id-31320.highgate.irccloud.com Zeldo G Zeldo :Zeldo
+[2016/05/29 19:01:57.891] >> :ipo.esper.net 354 SkyBot #MultiMC kilobyte cucumber.kilobyte22.de Kilobyte H+ Stiepen :That's me
+[2016/05/29 19:01:57.891] >> :ipo.esper.net 354 SkyBot #MultiMC ~Mumfrey dedi5.eq2.co.uk Mumfrey G Mumfrey :Mumfrey
+[2016/05/29 19:01:57.891] >> :ipo.esper.net 354 SkyBot #MultiMC ~v^ c-68-41-215-101.hsd1.mi.comcast.net v^ G ping :PixelToast
+[2016/05/29 19:01:57.891] >> :ipo.esper.net 315 SkyBot #MultiMC :End of /WHO list.
+[2016/05/29 19:01:57.892] >> :ipo.esper.net 367 SkyBot #MultiMC *!*@197.195.184.104 ipo.esper.net 1460169973 
+[2016/05/29 19:01:57.892] >> :ipo.esper.net 367 SkyBot #MultiMC *!*@151.95.193.97 ipo.esper.net 1460169973 
+[2016/05/29 19:01:57.892] >> :ipo.esper.net 367 SkyBot #MultiMC *!*@li523-242.members.linode.com ipo.esper.net 1460169973 
+[2016/05/29 19:01:57.892] >> :ipo.esper.net 367 SkyBot #MultiMC *!*@host31-54-114-19.range31-54.btcentralplus.com ipo.esper.net 1460169973 
+[2016/05/29 19:01:57.892] >> :ipo.esper.net 367 SkyBot #MultiMC *!~m@197.123.25.* ipo.esper.net 1460169973 
+[2016/05/29 19:01:57.892] >> :ipo.esper.net 367 SkyBot #MultiMC *!*.*@2601:4:4500:887:472:2ca5:aa39:1b65 ipo.esper.net 1460169973 
+[2016/05/29 19:01:57.893] >> :ipo.esper.net 367 SkyBot #MultiMC *!~Polaris@*.verizon.net ipo.esper.net 1460169973 
+[2016/05/29 19:01:57.893] >> :ipo.esper.net 367 SkyBot #MultiMC *!*webchat@*.client.mchsi.com ipo.esper.net 1460169973 
+[2016/05/29 19:01:57.893] >> :ipo.esper.net 367 SkyBot #MultiMC *!*@port782.ds1-od.adsl.cybercity.dk ipo.esper.net 1460169973 
+[2016/05/29 19:01:57.893] >> :ipo.esper.net 367 SkyBot #MultiMC *!Mibbit@168.28.136.* ipo.esper.net 1460169973 
+[2016/05/29 19:01:57.893] >> :ipo.esper.net 367 SkyBot #MultiMC *!~borren420@*.charter.com ipo.esper.net 1460169973 
+[2016/05/29 19:01:57.989] >> :ipo.esper.net 367 SkyBot #MultiMC *!*@CPE0013f7c03aa8-CM0013f7c03aa4.cpe.net.cable.rogers.com ipo.esper.net 1460169973 
+[2016/05/29 19:01:57.989] >> :ipo.esper.net 367 SkyBot #MultiMC *!*@c-67-170-51-233.hsd1.wa.comcast.net ipo.esper.net 1460169973 
+[2016/05/29 19:01:57.989] >> :ipo.esper.net 367 SkyBot #MultiMC *!Mibbit@88.240.38.110 ipo.esper.net 1460169973 
+[2016/05/29 19:01:57.989] >> :ipo.esper.net 367 SkyBot #MultiMC *!*@24.115.76.60.res-cmts.ovr.ptd.net ipo.esper.net 1460169973 
+[2016/05/29 19:01:57.989] >> :ipo.esper.net 367 SkyBot #MultiMC *!*@70.44.184.15.res-cmts.lcp.ptd.net ipo.esper.net 1460169973 
+[2016/05/29 19:01:57.990] >> :ipo.esper.net 368 SkyBot #MultiMC :End of Channel Ban List
+[2016/05/29 19:01:57.990] >> :ipo.esper.net 324 SkyBot #MultiMC +Cnt 
+[2016/05/29 19:01:57.990] >> :ipo.esper.net 329 SkyBot #MultiMC 1333487906 
+[2016/05/29 19:01:57.990] >> :zsh!zsh@services.esper.net NOTICE SkyBot :[#MultiMC] Welcome! ***Please read the topic before you ask anything!***
+[2016/05/29 19:01:58.103] >> :zsh!zsh@services.esper.net MODE #ElrosBot +o SkyBot 
+[2016/05/29 19:01:59.649] << WHO #ElrosBot %acfhnru 
+[2016/05/29 19:01:59.762] >> :ipo.esper.net 354 SkyBot #ElrosBot ~SkyBot pool-98-115-28-71.phlapa.fios.verizon.net SkyBot H@ robotbrain :SkyBot
+[2016/05/29 19:01:59.875] >> :ipo.esper.net 354 SkyBot #ElrosBot ~ElrosGem 45.55.231.139 ElrosGem H+ ElrosGem :ElrosGem the {x|x > 9}th
+[2016/05/29 19:01:59.875] >> :ipo.esper.net 354 SkyBot #ElrosBot zsh services.esper.net zsh H*@ 0 :zsh: Being superior to every other shell out there
+[2016/05/29 19:01:59.875] >> :ipo.esper.net 354 SkyBot #ElrosBot ~robotbrai 2604:a880:800:10::94a:d001 RoboSky H@ robotbrain :robotbrain
+[2016/05/29 19:01:59.876] >> :ipo.esper.net 315 SkyBot #ElrosBot :End of /WHO list.
+[2016/05/29 19:02:01.650] << MODE #ElrosBot +b 
+[2016/05/29 19:02:01.763] >> :ipo.esper.net 368 SkyBot #ElrosBot :End of Channel Ban List
+[2016/05/29 19:02:03.650] << MODE #ElrosBot 
+[2016/05/29 19:02:03.765] >> :ipo.esper.net 324 SkyBot #ElrosBot +nt 
+[2016/05/29 19:02:03.879] >> :ipo.esper.net 329 SkyBot #ElrosBot 1464562036 
+[2016/05/29 19:02:14.104] !! [Thread done] For #<Cinch::Handler @event=:connect pattern=#<Cinch::Pattern:0x00000002077680 @prefix=nil, @pattern=//, @suffix=nil>>: #<Thread:0x000000021bc220> -- 0 remaining.
+[2016/05/29 19:02:28.871] !! [plugin] admin: Registering executor with pattern `#<Cinch::Pattern:0x00000002eb3c08 @prefix="?", @pattern=/admin\s+(.+)/, @suffix=nil>`, reacting on `message`
+[2016/05/29 19:02:28.872] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002eb3c08 @prefix="?", @pattern=/admin\s+(.+)/, @suffix=nil>`, reacting on `message`
+[2016/05/29 19:02:28.872] !! [plugin] httpserver: Registering listener for type `connect`
+[2016/05/29 19:02:28.872] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002eb0440 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `connect`
+[2016/05/29 19:02:28.872] !! [plugin] httpserver: Registering listener for type `disconnect`
+[2016/05/29 19:02:28.872] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002ea7638 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `disconnect`
+[2016/05/29 19:02:28.872] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002ea60d0 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `connect`
+[2016/05/29 19:02:28.872] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002ea5860 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `disconnect`
+[2016/05/29 19:02:28.872] II Connecting to irc.esper.net:6667
+[2016/05/29 19:02:28.927] << CAP LS 
+[2016/05/29 19:02:28.927] << NICK SkyBot 
+[2016/05/29 19:02:28.927] << USER SkyBot 0 * :SkyBot
+[2016/05/29 19:02:28.981] >> :aperture.esper.net NOTICE * :*** Looking up your hostname...
+[2016/05/29 19:02:29.031] >> :aperture.esper.net NOTICE * :*** Checking Ident
+[2016/05/29 19:02:29.083] >> :aperture.esper.net NOTICE * :*** Found your hostname

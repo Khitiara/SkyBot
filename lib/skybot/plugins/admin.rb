@@ -1,3 +1,5 @@
+require_relative 'command_handler'
+
 module Skybot
   module Plugins
     class Admin

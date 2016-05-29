@@ -1,3 +1,4 @@
+require 'active_support/inflector'
 
 class SkyBot < Cinch::Bot
   attr_reader :bot_config

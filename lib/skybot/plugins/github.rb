@@ -1,3 +1,5 @@
+require_relative 'http_server'
+
 module Skybot
   module Plugins
     class Github
