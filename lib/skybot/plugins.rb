@@ -1,0 +1,5 @@
+require 'skybot/plugins/command_handler'
+require 'skybot/plugins/admin'
+require 'skybot/plugins/http_server'
+require 'skybot/plugins/github_message_formatter'
+require 'skybot/plugins/github'

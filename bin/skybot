@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+require 'skybot'
+
+bot       = SkyBot.new cfg_filename: 'config.json'
+Dir.mkdir 'log' unless Dir.exists? 'log'
+file      = open('./log/bot.log', 'a')
+file.sync = true
+bot.loggers.push(Cinch::Logger::FormattedLogger.new(file))
+bot.loggers.first.level = :info
+
+Signal.trap('TERM') { bot.quit }
+Signal.trap('HUP') { bot.reload_conf! }
+
+bot.start
